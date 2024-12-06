@@ -1,0 +1,8 @@
+---
+---
+{% comment %}
+The json is created in search_json.liquid and included here to be compressed
+{% endcomment %}
+{% capture _search %}{% include default/search_json.liquid %}{% endcapture %}
+{% assign emptyField = '{ },' %}
+{{ _search | split: " " | join: " " | remove: emptyField }}

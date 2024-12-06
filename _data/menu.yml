@@ -1,0 +1,6 @@
+# To add links to the navigation bar.
+- example:
+  title: Example
+  url: https://example.com
+  hide: true
+  position: 1
