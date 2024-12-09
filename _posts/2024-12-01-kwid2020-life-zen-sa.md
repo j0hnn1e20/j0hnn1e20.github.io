@@ -15,8 +15,8 @@ hide_title: false
 ![RenaltKwid](/assets/posts/kwid2020-sa-lp-v1/1.png)
 ![RenaltKwid](/assets/posts/kwid2020-sa-lp-v1/2.png)
 ![RenaltKwid](/assets/posts/kwid2020-sa-lp-v1/3.png)
-![RenaltKwid](/assets/posts/kwid2020-sa-lp-v1/4.png)
-<!--![RenaltKwid](/assets/posts/kwid2020-sa-lp-v1/5.png)
+<!--![RenaltKwid](/assets/posts/kwid2020-sa-lp-v1/4.png)
+![RenaltKwid](/assets/posts/kwid2020-sa-lp-v1/5.png)
 ![RenaltKwid](/assets/posts/kwid2020-sa-lp-v1/6.png)-->
 
 Autor: J0hnn1e20
