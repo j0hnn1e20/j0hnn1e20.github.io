@@ -10,7 +10,7 @@ favicon: assets/j020.ico                             # Icon displayed in the tab
 
 # Header and footer text
 header_text: Welcome to my Garage!  # Change Blog header text
-header_feature_image: assets/img/header/j0hnnie.png
+header_feature_image: assets/img/header/johnnie.png
 header_feature_image_responsive: true
 footer_text: 2024 | J0hnn1e20's Garage
 
