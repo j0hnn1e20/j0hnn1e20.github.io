@@ -24,5 +24,5 @@ Autor: J0hnn1e20
 Consulte nosso [EULA](https://j0hnn1e20.github.io/EULA.html) para obter informações legais detalhadas.
 
 <h1 style="text-align: center; color: white;">
-    <a href="/page/assets/posts/kwid2020-sa-lp-v1/Kwid2020-Civil-SA-v1.zip" download>DOWNLOAD</a>
+    <a href="/assets/posts/kwid2020-sa-lp-v1/Kwid2020-Civil-SA-v1.zip" download>DOWNLOAD</a>
 <h1>
