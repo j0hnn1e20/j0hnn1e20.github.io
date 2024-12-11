@@ -9,7 +9,7 @@ thumbnail: assets/posts/trailpmesp2023-sa-lp-v1/0.png
 hide_title: false
 ---
 
-# Volkswagen Polo GTI 2018
+# Chevrolet Trailblazer PMESP 2023
 
 ![ChevyTrailPMESP2023](/assets/posts/trailpmesp2023-sa-lp-v1/0.png)
 ![ChevyTrailPMESP2023](/assets/posts/trailpmesp2023-sa-lp-v1/1.png)
