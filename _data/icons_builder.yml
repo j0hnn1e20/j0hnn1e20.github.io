@@ -79,4 +79,4 @@ wordpress:
   pre: "https://"
   pos: ".wordpress.com/"
 youtube:
-  pre: "https://www.youtube.com/channel/"
+  pre: "https://youtube.com/@"
