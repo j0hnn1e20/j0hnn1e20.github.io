@@ -19,7 +19,7 @@ hide_title: false
 ![ChevyTrailPMESP2023](/assets/posts/trailpmesp2023-sa-lp-v1/5.png)
 ![ChevyTrailPMESP2023](/assets/posts/trailpmesp2023-sa-lp-v1/6.png)-->
 
-Autor: Lucas Eduardo
+Autor: Lucas Eduardo<br>
 Edições: J0hnn1e20
 
 [Confira a Trailblazer usada como base aqui.](https://www.vulpercommunity.com.br/2024/11/gta-sa-trailblazer-2021-civil.html)
