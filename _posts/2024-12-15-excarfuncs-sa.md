@@ -19,7 +19,7 @@ Este script adiciona várias funcionalidades aos veículos do GTA San Andreas, p
 - Alternar entre faróis ligados, desligados e automáticos;
 - Abrir o vidro do motorista (compatível com veículos que seguem o padrão do GTA SA).
 
-Os comandos são personalizáveis através de um arquivo .ini, e o script inclui o código-fonte em <p style="color:orange;"><a href="https://forum.mixmods.com.br/f141-gta3script-cleo/t26-indice-de-tutoriais-cleo-script-gta3script)">GTA3Script</a></p>.
+Os comandos são personalizáveis através de um arquivo .ini, e o script inclui o código-fonte em <p style="color:#fcba03;"><a href="https://forum.mixmods.com.br/f141-gta3script-cleo/t26-indice-de-tutoriais-cleo-script-gta3script)">GTA3Script</a></p>.
 
 <p style="color:red;">Este Script foi feito para CLEO 4, portanto, para usuários da CLEO 5 deve-se renomear a extensão do script (.cs) para (.cs4) para usar o modo de compatibilidade.</p>
 
