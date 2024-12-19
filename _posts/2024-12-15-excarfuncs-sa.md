@@ -19,7 +19,7 @@ Este script adiciona várias funcionalidades aos veículos do GTA San Andreas, p
 - Alternar entre faróis ligados, desligados e automáticos;
 - Abrir o vidro do motorista (compatível com veículos que seguem o padrão do GTA SA).
 
-Os comandos são personalizáveis através de um arquivo .ini, e o script inclui o código-fonte em GTA3Script.
+Os comandos são personalizáveis através de um arquivo .ini, e o script inclui o código-fonte em ,<p style="color:orange;">[GTA3Script](https://forum.mixmods.com.br/f141-gta3script-cleo/t26-indice-de-tutoriais-cleo-script-gta3script)</p>.
 
 <p style="color:red;">Este Script foi feito para CLEO 4, portanto, para usuários da CLEO 5 deve-se renomear a extensão do script (.cs) para (.cs4) para usar o modo de compatibilidade.</p>
 
@@ -27,7 +27,7 @@ Este mod faz o uso de funcionalidades da [CLEO+](https://www.mixmods.com.br/2023
 
 Autor: J0hnn1e20
 
-Consulte nosso <a href="https://j0hnn1e20.github.io/EULA.html">[EULA]</a> para obter informações legais detalhadas.
+Consulte nosso [EULA](https://j0hnn1e20.github.io/EULA.html) para obter informações legais detalhadas.
 
 <h1 style="text-align: center; color: white;">
     <a href="/assets/posts/excarfuncs-sa/Extra Car Functions v0.2.zip" download>DOWNLOAD</a>
