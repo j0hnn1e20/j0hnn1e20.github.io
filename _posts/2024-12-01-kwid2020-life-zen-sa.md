@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Renault Kwid Life/Zen 2020 
+title: Renault Kwid Life/Zen 2017-2020 
 tags: [Cars,Low-Poly,GTA SA, SA Style, Game-ready]
 categories: Vehicles
 author: J0hnn1e20
@@ -9,7 +9,7 @@ thumbnail: assets/posts/kwid2020-sa-lp-v1/0.png
 hide_title: false
 ---
 
-# Renalt Kwid Life/Zen 2020
+# Renalt Kwid Life/Zen 2017-2020
 
 ![RenaltKwid](/assets/posts/kwid2020-sa-lp-v1/0.png)
 ![RenaltKwid](/assets/posts/kwid2020-sa-lp-v1/1.png)
