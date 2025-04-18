@@ -1,9 +1,9 @@
 ---
 layout: page
-title: About
+title: Sobre Nós
 permalink: /about/
 feature-img: "assets/img/pexels/travel.jpeg"
-tags: [Page]
+tags: [About]
 hide: false
 excluded: false
 ---
