@@ -4,8 +4,8 @@ title: About
 permalink: /about/
 feature-img: "assets/img/pexels/travel.jpeg"
 tags: [Page]
-hide: true
-excluded: true
+hide: false
+excluded: false
 ---
 
 ## Johnnie's Garage
