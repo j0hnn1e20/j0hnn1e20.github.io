@@ -9,7 +9,7 @@ avatar: assets/img/j020.png                         # Empty for no avatar in nav
 favicon: assets/j020.ico                             # Icon displayed in the tab
 
 # Header and footer text
-header_text:  # Change Blog header text
+header_text: Welcome to my Warehouse! # Change Blog header text
 header_feature_image: assets/img/header/johnnie.png
 header_feature_image_responsive: false
 footer_text: 2024 - 2025 | J0hnn1e20's Garage
