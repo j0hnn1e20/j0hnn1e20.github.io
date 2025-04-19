@@ -3,13 +3,13 @@ baseurl: ""
 url: "https://j0hnn1e20.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
-title: J0hnn1e20                                        # site's title
-description: "Garage"                                   # used by search engines
+title: J0hnn1e20's Warehouse                                       # site's title
+description: "Welcome to my Warehouse!"                                   # used by search engines
 avatar: assets/img/j020.png                         # Empty for no avatar in navbar
 favicon: assets/j020.ico                             # Icon displayed in the tab
 
 # Header and footer text
-header_text: Welcome to my Garage!  # Change Blog header text
+header_text:  # Change Blog header text
 header_feature_image: assets/img/header/johnnie.png
 header_feature_image_responsive: false
 footer_text: 2024 - 2025 | J0hnn1e20's Garage
