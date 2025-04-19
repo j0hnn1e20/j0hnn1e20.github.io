@@ -8,7 +8,7 @@ hide: false
 excluded: false
 ---
 
-## Johnnie's Garage
+## Johnnie's Warehouse
 
 Este blog foi criado para manter todo o meu trabalho salvo. Desde março de 2025, não estou mais ativo em nenhuma comunidade, e todos os trabalhos publicados após março de 2025, são apenas reuploads e conclusões de trabalhos antigos.
 
