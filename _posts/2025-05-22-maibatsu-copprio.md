@@ -11,11 +11,11 @@ hide_title: true
 
 # Maibatsu Copprio
 
-![MaibatsuCopprio](assets/posts/copprio/copprio1.png)
-![MaibatsuCopprio](assets/posts/copprio/copprio2.png)
+![MaibatsuCopprio](/assets/posts/copprio/copprio1.png)
+![MaibatsuCopprio](/assets/posts/copprio/copprio2.png)
 
 Autor: Gorunic
 
 <h1 style="text-align: center; color: white;">
-    <a href="/assets/posts/pologti2018-sa-lp-v1/Maibatsu Copprio.zip" download>DOWNLOAD</a>
+    <a href="/assets/posts/copprio/Maibatsu Copprio.zip" download>DOWNLOAD</a>
 <h1>
