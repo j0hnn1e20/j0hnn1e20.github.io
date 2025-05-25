@@ -14,3 +14,5 @@ group :jekyll_plugins do
     gem 'rack', '~> 2.2.4'
     gem 'rspec'
 end
+
+gem "bulma-clean-theme",  '1.0.0'
