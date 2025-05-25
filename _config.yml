@@ -9,6 +9,7 @@ baseurl: ""
 url: "https://j0hnn1e20.github.io"
 permalink: pretty
 favicon: /path/to/favicon.png
+theme: bulma-clean-theme
 #gh_sponsor: j0hnn1e20
 #hide_share_buttons: true
 #theme_color: '#eeeeee'
