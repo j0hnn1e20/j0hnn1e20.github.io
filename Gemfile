@@ -1,11 +1,15 @@
+# frozen_string_literal: true
+
 source "https://rubygems.org"
 gemspec
 
-# Should be included in Jekyll but depending on the version Jekyll and Ruby version, it may not be included
-gem 'webrick'
-gem 'kramdown-parser-gfm'
-gem 'csv'
-
-
-# For github pages compatibility
-gem 'github-pages', group: :jekyll_plugins
+group :jekyll_plugins do
+    gem "jekyll-feed", "~> 0.6"
+    gem "jekyll-sitemap"
+    gem "jekyll-paginate"
+    gem "jekyll-seo-tag"
+    gem 'jekyll-redirect-from'
+    gem 'nokogiri'
+    gem 'rack', '~> 2.2.4'
+    gem 'rspec'
+end

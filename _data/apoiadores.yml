@@ -1,0 +1,9 @@
+- tier_name: Apoiadores
+  size: large
+#  description: Obrigado a todos vocês que me apoiaram durante estes anos.
+  sponsors:
+    - name: Leibe
+      profile: https://linktr.ee/leibe09
+      #<img src = "/assets/sponsors/leibe.jpeg" alt = "Leibe" style = "width:100px;height:100px;">
+#    - name: 
+#      profile:

@@ -1,385 +1,470 @@
-<!DOCTYPE html>
-<!--
-    Type on Strap jekyll theme v2.4.11
-    Theme free for personal and commercial use under the MIT license
-    https://github.com/sylhare/Type-on-Strap/blob/master/LICENSE
--->
-<html lang="en">
-  
-  <head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=5"> <!-- Theme Mode--> <script> const darkBtn = "Dark"; const lightBtn = "Light"; const isAutoTheme = true; const preferredTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'; if (isAutoTheme) { document.documentElement.setAttribute('data-theme', sessionStorage.getItem('theme') ?? preferredTheme); } else { document.documentElement.setAttribute('data-theme', "auto"); } </script> <!-- Main JS (navbar.js, katex_init.js and masonry_init.js)--> <script defer src="/assets/js/main.min.js"></script> <!-- CSS --> <link rel="stylesheet" href="/assets/css/main.css"> <!--Favicon--> <link rel="shortcut icon" href="/assets/j020.ico" type="image/x-icon"> <!-- KaTeX 0.16.11 --> <script defer src="/assets/js/vendor/katex.min.js"></script> <script defer src="/assets/js/vendor/katex.auto-render.min.js" onload="renderMathInElement(document.body);"></script> <!-- Mermaid 11.4.1 --> <script defer src="/assets/js/vendor/mermaid.min.js"></script> <!-- Simple Jekyll Search 1.10.0 --> <script src="/assets/js/vendor/simple-jekyll-search.min.js" type="text/javascript"></script> <!-- Google Analytics / Cookie Consent --> <script> const cookieName = 'cookie-notice-dismissed-http://localhost:4000'; const isCookieConsent = 'false'; const analyticsName = ''; const analyticsNameGA4 = ''; </script> <!-- seo tags --> <meta property="og:image" content="http://localhost:4000/assets/img/header/johnnie.png"> <meta property="og:type" content="website" /> <!-- Begin Jekyll SEO tag v2.8.0 --> <title>Gallery | J0hnn1e20</title> <meta name="generator" content="Jekyll v4.3.4" /> <meta property="og:title" content="Gallery" /> <meta property="og:locale" content="en_US" /> <meta name="description" content="Garage" /> <meta property="og:description" content="Garage" /> <link rel="canonical" href="http://localhost:4000/gallery/" /> <meta property="og:url" content="http://localhost:4000/gallery/" /> <meta property="og:site_name" content="J0hnn1e20" /> <meta property="og:type" content="website" /> <meta name="twitter:card" content="summary" /> <meta property="twitter:title" content="Gallery" /> <script type="application/ld+json"> {"@context":"https://schema.org","@type":"WebPage","description":"Garage","headline":"Gallery","url":"http://localhost:4000/gallery/"}</script> <!-- End Jekyll SEO tag --> <!-- RSS --> <link rel="alternate" type="application/atom+xml" title="J0hnn1e20" href="http://localhost:4000/feed.xml"/> <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="J0hnn1e20" /> <!-- Twitter Cards --> <meta name="twitter:title" content="Gallery"> <meta name="twitter:description" content="This is a photo gallery made from the static files in the `assets/img/pexels` folder. I wanted to automatically create a simple gallery from a folder without..."> <meta name="twitter:card" content="summary"> <meta name="twitter:image" content="http://localhost:4000/assets/img/header/johnnie.png"> <meta name="twitter:image:alt" content="Gallery"> </head>
-  <body>
+<!doctype html>
+
+
+
+
+<html
+    dir="ltr"
+    lang="pt"
+    class=" "
+>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <link
+        rel="shortcut icon"
+        type="image/png"
+        
+            href="/favicon.png"
+        
+    >
+    <script defer src="https://unpkg.com/alpinejs@3.9.0/dist/cdn.min.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"
+    ></script>
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    >
     
-    <header class="site-header"> <!-- Logo and title --> <div class="branding"> <a href="/"> <img alt="logo img" class="avatar" src="/assets/img/j020.png" loading="lazy"/> </a> <a class="site-title" aria-label="J0hnn1e20" href="/"> J0hnn1e20 </a> </div> <!-- Toggle menu --> <nav class="clear"> <a aria-label="pull" id="pull" class="toggle" href="#"> <i class="fas fa-bars fa-lg"></i> </a> <!-- Menu --> <ul class="hide"> <li class="separator"> | </li> <li> <a class="clear" aria-label="Tags" title="Tags" href="/tags/"> <i class="navbar-icon fas fa-tags" aria-hidden="true"></i> <span class="navbar-label navbar-label-with-icon">Tags</span> </a> </li> <li class="separator"> | </li> <li> <a class="clear" aria-label="Search" title="Search" href="/search/"> <i class="navbar-icon fas fa-search" aria-hidden="true"></i> <span class="navbar-label navbar-label-with-icon">Search</span> </a> </li> <li class="separator"> | </li> <li><a id="theme-toggle" title="Gallery " aria-label="Gallery" onclick="themeToggle()"></a></li> </ul> </nav> </header>
-    <div class="content">
-      <article >
-    <header id="main" style="background-image: url('')">
-        <div class="title-padder">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
+    
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Image Gallery | J0hnn1e20’s Warehouse</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Image Gallery" />
+<meta property="og:locale" content="pt" />
+<meta name="description" content="A simple image gallery page" />
+<meta property="og:description" content="A simple image gallery page" />
+<link rel="canonical" href="http://localhost:4000/gallery/" />
+<meta property="og:url" content="http://localhost:4000/gallery/" />
+<meta property="og:site_name" content="J0hnn1e20’s Warehouse" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Image Gallery" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"A simple image gallery page","headline":"Image Gallery","url":"http://localhost:4000/gallery/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <!-- head scripts -->
+</head>
+
+    <body>
+        <a href="#main-content" class="is-sr-only skip-link"> Pular para o Conteúdo </a>
+
+        
+            <div class="">
+    <div class="container py-6 px-4" id="cookieBanner">
+        <div class="columns">
+            <div class="column is-fullwidth ">
+                <div class="content">
+                    <p>Nós utilizamos cookies para aprimoraar sua experiência.</p>
+                    <p>
+                        Ao clicar no botão Aceitar, você concorda que o façamos.
+                        <a href="/cookie-policy/">Mais informações sobre nossa política de cookies</a>
+                    </p>
+                </div>
+
+                <div class="buttons mt-4">
+                    <button class="button is-primary" onclick="acceptCookies()">Aceitar Cookies</button>
+                    <button class="button is-primary" onclick="rejectCookies()">Rejeitar Cookies</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function acceptCookies() {
             
-                <h1 id="Gallery" class="title"> Gallery</h1>
+            Cookies.set('showCookieBanner', 'false', { expires: 365, path: '/' });
+            Cookies.set('cookiesAccepted', 'true', {expires: 365, path: '/'});
+            toggleCookieBanner();
+        }
+
+        function rejectCookies() {
+            Cookies.set('showCookieBanner', 'false', { expires: 365, path: '/' });
+            toggleCookieBanner();
+        }
+
+        function toggleCookieBanner() {
+            var showBanner = Cookies.get('showCookieBanner');
+            var banner = document.getElementById('cookieBanner');
+
+            if (showBanner === 'false') {
+                banner.setAttribute('style', 'display: none;');
+            } else {
+                banner.setAttribute('style', 'display: block;');
+            }
+        }
+
+        toggleCookieBanner();
+    </script>
+</div>
+
+        
+        <nav
+    class="navbar is-primary "
+    x-data="{ openNav: false }"
+>
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item">
+                J0hnn1e20's Warehouse
+            </a>
+            <a
+                role="button"
+                class="navbar-burger burger"
+                aria-label="menu"
+                aria-expanded="false"
+                data-target="navMenu"
+                :class="{ 'is-active': openNav }"
+                x-on:click="openNav = !openNav"
+            >
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
+            <div class="navbar-start">
+                <a href="/" class="navbar-item ">Home</a>
                 
-                    <h2 class="subtitle">From the pexels folder</h2>
+                    
+                        
+                            <a
+                                href="/blog/"
+                                class="navbar-item "
+                            >Blog</a>
+                        
+                    
+                        
+                            <div class="navbar-item has-dropdown is-hoverable ">
+                                <a
+                                    href="/"
+                                    class="navbar-link "
+                                >Mais</a>
+                                <div class="navbar-dropdown">
+                                    
+                                        <a
+                                            href="/apoiadores/"
+                                            class="navbar-item "
+                                        >Apoiadores</a>
+                                    
+                                </div>
+                            </div>
+                        
+                    
                 
+            </div>
+
+            <div class="navbar-end">
+                
+            </div>
+        </div>
+    </div>
+</nav>
+
+        
+            <section
+    class="hero  is-medium  is-bold is-primary"
+    
+>
+    <div class="hero-body ">
+        <div class="container">
+            <h1 class="title is-2">Image Gallery</h1>
+            <p class="subtitle is-3">An example image gallery page</p>
             
         </div>
-    </header>
-    <section class="post-content">
+    </div>
+</section>
+
+        
+        
+
+        <section class="section">
+            <div class="container">
+                <div class="columns is-multiline">
+                    
+                    <main class="column is-12" id="main-content">
+                        
+
+                        
+
+                        
+
+                        
     
-            <p>This is a photo gallery made from the static files in the <code class="language-plaintext highlighter-rouge">assets/img/pexels</code> folder. 
-I wanted to automatically create a simple gallery from a folder without having to create a markdown page as you would for the portfolio.</p>
-
-<style>
-/* force scrollbar */
-html { overflow-y: scroll; }
-
-/* To overwrite page's padding, to get bigger images */
-/* article {padding:2%;} */
-</style>
-
-<div id="masonry" class="grid">
-<div class="grid-sizer"></div>
-<div class="gutter-sizer"></div>
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
     
-        <img src="/assets/img/pexels/book-glass.jpeg" alt="" class="grid-item" style="padding: 0;" />
+        <div class="columns is-multiline">
+            <div class="column is-12">
+                <p class="title is-3 has-text-centered">Image Gallery Title</p>
+            </div>
+            
+                <div class="column is-4-desktop is-6-tablet">
+                    <div class="card">
+                        <div class="card-image">
+                            <div x-data="{ open: false }" markdown="0">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image is-4by3">
+            <img src="https://picsum.photos/id/16/600/480" alt="The alt text for the image">
+        </figure>
+    </a>
+    <div class="modal" x-bind:class="open ? 'is-active' : ''" x-cloak>
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content">
+            <p class="image is-4by3">
+                
+                    <img src="https://picsum.photos/id/16/1200/960" alt="The alt text for the image">
+                
+            </p>
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+
+                        </div>
+                        <div class="card-content">
+                            <div class="content">
+                                <p>The image description</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="column is-4-desktop is-6-tablet">
+                    <div class="card">
+                        <div class="card-image">
+                            <div x-data="{ open: false }" markdown="0">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image is-4by3">
+            <img src="https://picsum.photos/id/17/600/480" alt="The alt text for the image">
+        </figure>
+    </a>
+    <div class="modal" x-bind:class="open ? 'is-active' : ''" x-cloak>
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content">
+            <p class="image is-4by3">
+                
+                    <img src="https://picsum.photos/id/17/1200/960" alt="The alt text for the image">
+                
+            </p>
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+
+                        </div>
+                        <div class="card-content">
+                            <div class="content">
+                                <p>The image description</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="column is-4-desktop is-6-tablet">
+                    <div class="card">
+                        <div class="card-image">
+                            <div x-data="{ open: false }" markdown="0">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image is-4by3">
+            <img src="https://picsum.photos/id/18/600/480" alt="The alt text for the image">
+        </figure>
+    </a>
+    <div class="modal" x-bind:class="open ? 'is-active' : ''" x-cloak>
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content">
+            <p class="image is-4by3">
+                
+                    <img src="https://picsum.photos/id/18/1200/960" alt="The alt text for the image">
+                
+            </p>
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+
+                        </div>
+                        <div class="card-content">
+                            <div class="content">
+                                <h3 id="a-title">A title</h3>
+
+<p>The <em>image</em> <strong>description</strong> can be longer and written in markdown too.</p>
+
+<p>If you want to describe your image in more detail.</p>
+
+<ul>
+  <li>Item 1</li>
+  <li>Item 2</li>
+</ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+        </div>
     
-  
+        <div class="columns is-multiline">
+            <div class="column is-12">
+                <p class="title is-3 has-text-centered">Second Image Gallery Title</p>
+            </div>
+            
+                <div class="column is-4-desktop is-6-tablet">
+                    <div class="card">
+                        <div class="card-image">
+                            <div x-data="{ open: false }" markdown="0">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+            <img src="https://picsum.photos/id/19/800/450" alt="The alt text for the image">
+        </figure>
+    </a>
+    <div class="modal" x-bind:class="open ? 'is-active' : ''" x-cloak>
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content">
+            <p class="image ">
+                
+                    <img src="https://picsum.photos/id/19/800/450" alt="The alt text for the image">
+                
+            </p>
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
 
-  
+                        </div>
+                        <div class="card-content">
+                            <div class="content">
+                                <p>The image description</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="column is-4-desktop is-6-tablet">
+                    <div class="card">
+                        <div class="card-image">
+                            <div x-data="{ open: false }" markdown="0">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+            <img src="https://picsum.photos/id/20/800/450" alt="The alt text for the image">
+        </figure>
+    </a>
+    <div class="modal" x-bind:class="open ? 'is-active' : ''" x-cloak>
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content">
+            <p class="image ">
+                
+                    <img src="https://picsum.photos/id/20/800/450" alt="The alt text for the image">
+                
+            </p>
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+
+                        </div>
+                        <div class="card-content">
+                            <div class="content">
+                                <p>The image description</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="column is-4-desktop is-6-tablet">
+                    <div class="card">
+                        <div class="card-image">
+                            <div x-data="{ open: false }" markdown="0">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+            <img src="https://picsum.photos/id/21/800/450" alt="The alt text for the image">
+        </figure>
+    </a>
+    <div class="modal" x-bind:class="open ? 'is-active' : ''" x-cloak>
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content">
+            <p class="image ">
+                
+                    <img src="https://picsum.photos/id/21/800/450" alt="The alt text for the image">
+                
+            </p>
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+
+                        </div>
+                        <div class="card-content">
+                            <div class="content">
+                                <p>The <em>image</em> <strong>description</strong></p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+        </div>
     
-        <img src="/assets/img/pexels/computer.jpeg" alt="" class="grid-item" style="padding: 0;" />
-    
-  
 
-  
-    
-        <img src="/assets/img/pexels/search-map.jpeg" alt="" class="grid-item" style="padding: 0;" />
-    
-  
 
-  
-    
-        <img src="/assets/img/pexels/travel.jpeg" alt="" class="grid-item" style="padding: 0;" />
-    
-  
+                        
+<div class="content">
+    <p>This is an example page with an image gallery.</p>
 
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
+<p><a href="/bulma-clean-theme/docs/page-components/image-gallery/">View the Image Gallery Docs</a></p>
 
 </div>
 
-<script src="/assets/js/vendor/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+                    </main>
+                    
+                </div>
+            </div>
+        </section>
+        
+            <footer class="footer">
+    <div class="container">
+        
+            <div class="columns is-multiline">
+                
+            </div>
+        
 
-<script src="/assets/js/vendor/masonry.pkgd.min.js" type="text/javascript"></script>
-
-
-            
-    </section>
-    <!-- Tag list for portfolio -->
-    
-    
-    <div class="tag-list"> <ul> <li class="meta">Tag</li> <li><a class="button" href="/tags#Page"> <p><i class="fas fa-tag fa-fw fa-sm"></i> Page</p> </a></li> </ul> </div>
-</article>
-
+        
+    <div class="buttons is-centered mt-6 mb-6">
+        
+        
+        
+        
+        
+        
+            <a href="https://www.youtube.com/@J0hnn1e20" class="button is-medium">
+                <span class="icon is-medium">
+                    <i class="fa-brands fa-youtube fa-xl"></i>
+                    <span class="is-sr-only">YouTube</span>
+                </span>
+            </a>
+        
     </div>
-    
-    <footer class="site-footer"> <p class="text"> 2024 | J0hnn1e20's Garage</p> <div class="footer-icons"> <ul> <!-- Social icons from Font Awesome, if enabled --> <li> <a feed.xml href="/feed.xml" title="Follow RSS feed" target="_blank"> <span class="fa-stack fa-lg"> <i class="fas fa-circle fa-stack-2x"></i> <i class="fas fa-rss fa-stack-1x fa-inverse"></i> </span> </a> </li> <li> <a href="https://discord.gg/7Xw37sR2vd" title="Follow on Discord" target="_blank" rel="noopener"> <span class="fa-stack fa-lg"> <i class="fas fa-circle fa-stack-2x"></i> <i class="fab fa-discord fa-stack-1x fa-inverse"></i> </span> </a> </li> <li> <a href="https://github.com/j0hnn1e20" title="Follow on Github" target="_blank" rel="noopener"> <span class="fa-stack fa-lg"> <i class="fas fa-circle fa-stack-2x"></i> <i class="fab fa-github fa-stack-1x fa-inverse"></i> </span> </a> </li> <li> <a href="mailto:j0hnn1e20@proton.me" title="Follow on Mail" target="_blank" rel="noopener"> <span class="fa-stack fa-lg"> <i class="fas fa-circle fa-stack-2x"></i> <i class="fas fa-envelope fa-stack-1x fa-inverse"></i> </span> </a> </li> <li> <a href="https://youtube.com/@j0hnn1e20" title="Follow on Youtube" target="_blank" rel="noopener"> <span class="fa-stack fa-lg"> <i class="fas fa-circle fa-stack-2x"></i> <i class="fab fa-youtube fa-stack-1x fa-inverse"></i> </span> </a> </li> </ul> </div> <script type="module"> mermaid.initialize({ startOnLoad: false, theme: "default" }); mermaid.run({ nodes: [...document.querySelectorAll('.language-mermaid'), ...document.querySelectorAll('.mermaid')] }); </script> </footer>
-  </body>
+
+
+
+        <div class="content is-small has-text-centered">
+            <p class="">Tema construído por <a href="https://www.csrhymes.com">C.S. Rhymes</a> e editado por J0hnn1e20</p>
+        </div>
+    </div>
+</footer>
+
+        
+        <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts -->
+</body>
 </html>

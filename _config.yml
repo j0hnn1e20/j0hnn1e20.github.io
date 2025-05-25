@@ -1,57 +1,89 @@
-# SITE CONFIGURATION
+# Site Settings
+lang: pt
+title: J0hnn1e20's Warehouse
+tagline: 
+email: j0hnn1e20@proton.me
+description: >
+  J0hnn1e20's Warehouse é meu blog de mods e portifólio pessoal para mostrar meu trabalho, além de preservar mods das comunidades de gta.
 baseurl: ""
 url: "https://j0hnn1e20.github.io"
+permalink: pretty
+#favicon: /path/to/favicon.png
+#gh_sponsor: j0hnn1e20
+#hide_share_buttons: true
+#theme_color: '#eeeeee'
+#fixed_navbar: top
+#direction: one of <ltr, rtl, auto>, default: ltr
+#force_theme: dark
 
-# THEME-SPECIFIC CONFIGURATION
-title: J0hnn1e20's Warehouse                                       # site's title
-description: "Welcome to my Warehouse!"                                   # used by search engines
-avatar: assets/img/j020.png                         # Empty for no avatar in navbar
-favicon: assets/j020.ico                             # Icon displayed in the tab
-
-# Header and footer text
-header_text: Welcome to my Warehouse! # Change Blog header text
-header_feature_image: assets/img/header/johnnie.png
-header_feature_image_responsive: false
-footer_text: 2024 - 2025 | J0hnn1e20's Warehouse
-
-# Blog
-excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable
-post_navigation: true
-color_image: /assets/img/lineart.png                    # A bit transparent for color posts.
-
-# Features
-# More in the _data folder for share buttons, author and language
-# For layout customization, go to the "_sass > base" folder, and check "_variables.scss"
-katex: true                                             # Enable if using math markup
-mermaid: default                                        # Enable mermaid-js for diagrams, use theme: base, forest, dark, default, neutral
-google_analytics:                                       # Measurement ID, e.g. "G-00000"
-cookie_consent: true                                   # To respect the usage of cookies
-color_theme: auto                                       # auto, dark or light
-
-# Comments options
-comments:
-  disqus_shortname: j0hnn1e20                           # Your discus shortname for comments
-  cusdis_app_id:                                        # Your cusdis data-app-id
-  utterances:                                           # Enable by filling below information. For more info, go to https://utteranc.es
-    repo:                                               # your public comments repository (e.g. owner/repo)
-    issue-term:                                         # Issue term (e.g. "comment" consider issues with this word in the title as comments)
-
-# PAGINATION
-paginate: 10
+paginate: 5
 paginate_path: "/blog/page:num"
 
-# PORTFOLIO
-collections:
-  portfolio:
-    output: true
-    permalink: /:collection/:name
+# Disqus Comments
+disqus:
+  # Leave shortname blank to disable comments site-wide.
+  # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+  # shortname: my_disqus_shortname
+  shortname: j0hnn1e20
 
-# BUILD SETTINGS
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+  - kramdown-parser-gfm
+  - jekyll-redirect-from
+
+exclude: 
+  - Gemfile
+  - clean-theme.gemspec
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+livereload: true
+
 sass:
   style: compressed
-  quiet_deps: true
-plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed]
-exclude: [".jekyll-cache", ".jekyll-metadata", ".idea", "vendor/*", "assets/node_modules/*"]
+  source_dir: _sass
+  # load_paths: 
+    # - node_modules
 
-# theme: type-on-strap                                  # if using the theme as a jekyll theme gem
-remote_theme: sylhare/Type-on-Strap                     # If using as a remote_theme in github
+#google_analytics: UA-code-here
+cookie_policy: /cookie-policy/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      show_sidebar: true
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      author: "J0hnn1e20"
+      layout: post
+      show_sidebar: true
+
+markdown: kramdown
+highlighter: rouge
+
+footer_menu: example_footer_menu
+
+collections:
+  products: 
+    output: true
+    layout: product
+    image: https://picsum.photos/id/16/800/600
+    show_sidebar: false
+
+social:
+  youtube: https://www.youtube.com/@J0hnn1e20
+  

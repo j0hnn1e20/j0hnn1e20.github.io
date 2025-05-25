@@ -1,6 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-15T17:47:59-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">J0hnn1e20</title><subtitle>Garage</subtitle><entry><title type="html">Extra Car Functions</title><link href="http://localhost:4000/scripts/2024/12/15/excarfuncs-sa.html" rel="alternate" type="text/html" title="Extra Car Functions" /><published>2024-12-15T00:00:00-03:00</published><updated>2024-12-15T00:00:00-03:00</updated><id>http://localhost:4000/scripts/2024/12/15/excarfuncs-sa</id><content type="html" xml:base="http://localhost:4000/scripts/2024/12/15/excarfuncs-sa.html"><![CDATA[<h1 id="extra-car-functions">Extra Car Functions</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="pt" /><updated>2025-05-24T22:17:58-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">J0hnn1e20’s Warehouse</title><subtitle>J0hnn1e20&apos;s Warehouse é meu blog de mods e portifólio pessoal para mostrar meu trabalho, além de preservar mods das comunidades de gta.
+</subtitle><entry><title type="html">Maibatsu Copprio</title><link href="http://localhost:4000/ve%C3%ADculos/2025/05/22/maibatsu-copprio/" rel="alternate" type="text/html" title="Maibatsu Copprio" /><published>2025-05-22T13:50:00-03:00</published><updated>2025-05-22T13:50:00-03:00</updated><id>http://localhost:4000/ve%C3%ADculos/2025/05/22/maibatsu-copprio</id><content type="html" xml:base="http://localhost:4000/ve%C3%ADculos/2025/05/22/maibatsu-copprio/"><![CDATA[<p><img src="/img/copprio/copprio1.png" alt="Copprio" />
+<img src="/img/copprio/copprio2.png" alt="Copprio" /></p>
 
-<p>Este script adiciona várias funcionalidades aos veículos do GTA San Andreas, proporcionando uma experiência mais rica e personalizada. Entre os recursos disponíveis estão:</p>
+<p>Autor: Gorunic</p>
+
+<h1 style="text-align: center; color: #c8c8c8;">
+    <a href="/files/Maibatsu Copprio.zip" download="">DOWNLOAD</a>
+<h1>
+</h1></h1>]]></content><author><name>J0hnn1e20</name></author><category term="Veículos" /><category term="GTA-San-Andreas" /><category term="Carros" /><category term="Low-Poly" /><category term="Game-Ready" /><summary type="html"><![CDATA[Maibatsu Copprio para GTA San Andreas]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/img/copprio/copprio1.png" /><media:content medium="image" url="http://localhost:4000/img/copprio/copprio1.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">ZModeler</title><link href="http://localhost:4000/ferramentas/2025/01/14/zazona-modeler/" rel="alternate" type="text/html" title="ZModeler" /><published>2025-01-14T21:00:00-03:00</published><updated>2025-01-14T21:00:00-03:00</updated><id>http://localhost:4000/ferramentas/2025/01/14/zazona-modeler</id><content type="html" xml:base="http://localhost:4000/ferramentas/2025/01/14/zazona-modeler/"><![CDATA[<p><img src="/img/zmodeler/ZModeler.png" alt="ZModeler2" /></p>
+
+<p>ZModeler 2 é uma ferramenta muito útil para modificação de diversos jogos.</p>
+
+<p>Autor: Oleg Melashenko</p>
+
+<h1 style="text-align: center; color: #c8c8c8;">
+    <a href="/files/ZModeler 2.2.6 (x86).7z" download="">DOWNLOAD</a>
+<h1>
+</h1></h1>]]></content><author><name>J0hnn1e20</name></author><category term="Ferramentas" /><category term="GTA-San-Andreas" /><category term="GTA-Vice-City" /><category term="GTA-III" /><category term="GTA-IV" /><category term="NFS" /><summary type="html"><![CDATA[ZModeler]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/img/zmodeler/ZModeler.png" /><media:content medium="image" url="http://localhost:4000/img/zmodeler/ZModeler.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Extra Car Functions [ALPHA]</title><link href="http://localhost:4000/scripts/2024/12/14/extra-car-functions/" rel="alternate" type="text/html" title="Extra Car Functions [ALPHA]" /><published>2024-12-14T21:00:00-03:00</published><updated>2024-12-14T21:00:00-03:00</updated><id>http://localhost:4000/scripts/2024/12/14/extra-car-functions</id><content type="html" xml:base="http://localhost:4000/scripts/2024/12/14/extra-car-functions/"><![CDATA[<p><img src="/img/extracarfunctions/ExCarFcs.png" alt="Extra Car Functions" /></p>
+
+<p>Este script adiciona várias funcionalidades aos veículos do GTA San Andreas. Entre os recursos disponíveis estão:</p>
 
 <ul>
   <li>Travar e destravar as portas;</li>
@@ -10,70 +28,47 @@
   <li>Abrir o vidro do motorista (compatível com veículos que seguem o padrão do GTA SA).</li>
 </ul>
 
-<p>Os comandos são personalizáveis através de um arquivo .ini, e o script inclui o código-fonte em GTA3Script.</p>
+<p>Os comandos são personalizáveis através de um arquivo .ini, e o script inclui o código-fonte em <a href="https://forum.mixmods.com.br/f141-gta3script-cleo/t26-indice-de-tutoriais-cleo-script-gta3script">GTA3Script</a>.</p>
 
-<p style="color:red;">Este Script foi feito para CLEO 4, portanto, para usuários da CLEO 5 deve-se renomear a extensão do script (.cs) para (.cs4) para usar o modo de compatibilidade.<p>
+<p style="color:red;">Este Script foi feito para CLEO 4, portanto, para usuários da CLEO 5 deve-se renomear a extensão do script (.cs) para (.cs4) para usar o modo de compatibilidade.</p>
 
-Este mod faz o uso de funcionalidades da [CLEO+](https://www.mixmods.com.br/2023/10/cleoplus/).
+<p>Este mod faz o uso de funcionalidades da <a href="https://www.mixmods.com.br/2023/10/cleoplus/">CLEO+</a>.</p>
 
-Autor: J0hnn1e20
+<p>Autor: J0hnn1e20<br />
+Agradecimentos: Caio Sant’Ana</p>
 
-Consulte nosso [EULA](https://j0hnn1e20.github.io/EULA.html) para obter informações legais detalhadas.
+<p>Consulte nosso <a href="https://j0hnn1e20.github.io/EULA.html">EULA</a> para obter informações legais detalhadas.</p>
 
 <h1 style="text-align: center; color: white;">
-    <a href="/assets/posts/excarfuncs-sa/Extra Car Functions v0.2.zip" download="">DOWNLOAD</a>
+    <a href="/files/Extra Car Functions v0.2.zip" download="">DOWNLOAD</a>
 <h1>
-</h1></h1></p></p>]]></content><author><name>J0hnn1e20</name></author><category term="Scripts" /><category term="Scripts" /><category term="GTA SA" /><summary type="html"><![CDATA[Extra Car Functions]]></summary></entry><entry><title type="html">Chevrolet Trailblazer PMESP 2023</title><link href="http://localhost:4000/vehicles/2024/12/10/trailblazer-pmesp-2023-sa.html" rel="alternate" type="text/html" title="Chevrolet Trailblazer PMESP 2023" /><published>2024-12-10T00:00:00-03:00</published><updated>2024-12-10T00:00:00-03:00</updated><id>http://localhost:4000/vehicles/2024/12/10/trailblazer-pmesp-2023-sa</id><content type="html" xml:base="http://localhost:4000/vehicles/2024/12/10/trailblazer-pmesp-2023-sa.html"><![CDATA[<h1 id="chevrolet-trailblazer-pmesp-2023">Chevrolet Trailblazer PMESP 2023</h1>
+</h1></h1>]]></content><author><name>J0hnn1e20</name></author><category term="Scripts" /><category term="CLEO-4" /><summary type="html"><![CDATA[Extra Car Functions [ALPHA]]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/img/extracarfunctions/ExCarFcs.png" /><media:content medium="image" url="http://localhost:4000/img/extracarfunctions/ExCarFcs.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Renault Kwid Life/Zen 2017-2020</title><link href="http://localhost:4000/ve%C3%ADculos/2024/12/09/renalt-kwid-2020/" rel="alternate" type="text/html" title="Renault Kwid Life/Zen 2017-2020" /><published>2024-12-09T21:00:00-03:00</published><updated>2024-12-09T21:00:00-03:00</updated><id>http://localhost:4000/ve%C3%ADculos/2024/12/09/renalt-kwid-2020</id><content type="html" xml:base="http://localhost:4000/ve%C3%ADculos/2024/12/09/renalt-kwid-2020/"><![CDATA[<p><img src="/img/kwid2020/kwid1.png" alt="Kwid2020" />
+<img src="/img/kwid2020/kwid2.png" alt="Kwid2020" /></p>
 
-<p><img src="/assets/posts/trailpmesp2023-sa-lp-v1/0.png" alt="ChevyTrailPMESP2023" />
-<img src="/assets/posts/trailpmesp2023-sa-lp-v1/1.png" alt="ChevyTrailPMESP2023" />
-<img src="/assets/posts/trailpmesp2023-sa-lp-v1/2.png" alt="ChevyTrailPMESP2023" />
-<img src="/assets/posts/trailpmesp2023-sa-lp-v1/3.png" alt="ChevyTrailPMESP2023" />
-<!--![ChevyTrailPMESP2023](/assets/posts/trailpmesp2023-sa-lp-v1/4.png)
-![ChevyTrailPMESP2023](/assets/posts/trailpmesp2023-sa-lp-v1/5.png)
-![ChevyTrailPMESP2023](/assets/posts/trailpmesp2023-sa-lp-v1/6.png)--></p>
+<p>Consulte nosso <a href="/EULA.md">EULA</a> para obter informações legais detalhadas.</p>
+
+<p>Autor: J0hnn1e20</p>
+
+<h1 style="text-align: center; color: #c8c8c8;">
+    <a href="/files/Kwid2020-Civil-SA-v1.zip" download="">DOWNLOAD</a>
+<h1>
+</h1></h1>]]></content><author><name>J0hnn1e20</name></author><category term="Veículos" /><category term="GTA-San-Andreas" /><category term="Carros" /><category term="Low-Poly" /><category term="Game-Ready" /><summary type="html"><![CDATA[Renault Kwid Life/Zen 2017-2020 para GTA San Andreas]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/img/kwid2020/kwid1.png" /><media:content medium="image" url="http://localhost:4000/img/kwid2020/kwid1.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Chevrolet Traiblazer LT 2023 PMESP</title><link href="http://localhost:4000/ve%C3%ADculos/2024/12/09/trailblazer-2023-pmesp/" rel="alternate" type="text/html" title="Chevrolet Traiblazer LT 2023 PMESP" /><published>2024-12-09T21:00:00-03:00</published><updated>2024-12-09T21:00:00-03:00</updated><id>http://localhost:4000/ve%C3%ADculos/2024/12/09/trailblazer-2023-pmesp</id><content type="html" xml:base="http://localhost:4000/ve%C3%ADculos/2024/12/09/trailblazer-2023-pmesp/"><![CDATA[<p><img src="/img/trailb2023pmesp/trailb1.png" alt="Trailblazer" />
+<img src="/img/trailb2023pmesp/trailb2.png" alt="Trailblazer" /></p>
 
 <p>Autor: Lucas Eduardo
-Edições: J0hnn1e20</p>
+Edições PMESP: J0hnn1e20</p>
 
-<p><a href="https://www.vulpercommunity.com.br/2024/11/gta-sa-trailblazer-2021-civil.html">Confira a Trailblazer usada como base aqui.</a>
-<!--Consulte nosso [EULA](https://j0hnn1e20.github.io/EULA.html) para obter informações legais detalhadas.--></p>
-
-<h1 style="text-align: center; color: white;">
-    <a href="/assets/posts/trailpmesp2023-sa-lp-v1/TrailblazerPMESP-2023-SA-v1.zip" download="">DOWNLOAD</a>
+<h1 style="text-align: center; color: #c8c8c8;">
+    <a href="/files/TrailblazerPMESP-2023-SA-v1.zip" download="">DOWNLOAD</a>
 <h1>
-</h1></h1>]]></content><author><name>J0hnn1e20</name></author><category term="Vehicles" /><category term="Cars" /><category term="Low-Poly" /><category term="GTA SA" /><category term="SA Style" /><category term="Game-ready" /><summary type="html"><![CDATA[Chevrolet Trailblazer PMESP 2023]]></summary></entry><entry><title type="html">Renault Kwid Life/Zen 2020</title><link href="http://localhost:4000/vehicles/2024/12/01/kwid2020-life-zen-sa.html" rel="alternate" type="text/html" title="Renault Kwid Life/Zen 2020" /><published>2024-12-01T00:00:00-03:00</published><updated>2024-12-01T00:00:00-03:00</updated><id>http://localhost:4000/vehicles/2024/12/01/kwid2020-life-zen-sa</id><content type="html" xml:base="http://localhost:4000/vehicles/2024/12/01/kwid2020-life-zen-sa.html"><![CDATA[<h1 id="renalt-kwid-lifezen-2020">Renalt Kwid Life/Zen 2020</h1>
+</h1></h1>]]></content><author><name>J0hnn1e20</name></author><category term="Veículos" /><category term="GTA-San-Andreas" /><category term="Carros" /><category term="Low-Poly" /><category term="Game-Ready" /><summary type="html"><![CDATA[Chevrolet Traiblazer LT 2023 PMESP para GTA San Andreas]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/img/trailb2023pmesp/trailb1.png" /><media:content medium="image" url="http://localhost:4000/img/trailb2023pmesp/trailb1.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Volkswagen Polo 2018 GTI</title><link href="http://localhost:4000/ve%C3%ADculos/2024/11/30/volkswagen-polo-2018-gti/" rel="alternate" type="text/html" title="Volkswagen Polo 2018 GTI" /><published>2024-11-30T21:00:00-03:00</published><updated>2024-11-30T21:00:00-03:00</updated><id>http://localhost:4000/ve%C3%ADculos/2024/11/30/volkswagen-polo-2018-gti</id><content type="html" xml:base="http://localhost:4000/ve%C3%ADculos/2024/11/30/volkswagen-polo-2018-gti/"><![CDATA[<p><img src="/img/polo2018gti/polo1.png" alt="Polo" />
+<img src="/img/polo2018gti/polo2.png" alt="Polo" /></p>
 
-<p><img src="/assets/posts/kwid2020-sa-lp-v1/0.png" alt="RenaltKwid" />
-<img src="/assets/posts/kwid2020-sa-lp-v1/1.png" alt="RenaltKwid" />
-<img src="/assets/posts/kwid2020-sa-lp-v1/2.png" alt="RenaltKwid" />
-<img src="/assets/posts/kwid2020-sa-lp-v1/3.png" alt="RenaltKwid" />
-<!--![RenaltKwid](/assets/posts/kwid2020-sa-lp-v1/4.png)
-![RenaltKwid](/assets/posts/kwid2020-sa-lp-v1/5.png)
-![RenaltKwid](/assets/posts/kwid2020-sa-lp-v1/6.png)--></p>
+<p>Consulte nosso <a href="/EULA.md">EULA</a> para obter informações legais detalhadas.</p>
 
 <p>Autor: J0hnn1e20</p>
 
-<p>Consulte nosso <a href="https://j0hnn1e20.github.io/EULA.html">EULA</a> para obter informações legais detalhadas.</p>
-
-<h1 style="text-align: center; color: white;">
-    <a href="/assets/posts/kwid2020-sa-lp-v1/Kwid2020-Civil-SA-v1.zip" download="">DOWNLOAD</a>
+<h1 style="text-align: center; color: #c8c8c8;">
+    <a href="/files/PoloGTI2018-Civil-SA-v1.zip" download="">DOWNLOAD</a>
 <h1>
-</h1></h1>]]></content><author><name>J0hnn1e20</name></author><category term="Vehicles" /><category term="Cars" /><category term="Low-Poly" /><category term="GTA SA" /><category term="SA Style" /><category term="Game-ready" /><summary type="html"><![CDATA[Renalt Kwid Life/Zen 2020]]></summary></entry><entry><title type="html">Volkswagen Polo GTI 2018</title><link href="http://localhost:4000/vehicles/2024/12/01/polo2018-gti-sa.html" rel="alternate" type="text/html" title="Volkswagen Polo GTI 2018" /><published>2024-12-01T00:00:00-03:00</published><updated>2024-12-01T00:00:00-03:00</updated><id>http://localhost:4000/vehicles/2024/12/01/polo2018-gti-sa</id><content type="html" xml:base="http://localhost:4000/vehicles/2024/12/01/polo2018-gti-sa.html"><![CDATA[<h1 id="volkswagen-polo-gti-2018">Volkswagen Polo GTI 2018</h1>
-
-<p><img src="/assets/posts/pologti2018-sa-lp-v1/0.png" alt="VWPolo" />
-<img src="/assets/posts/pologti2018-sa-lp-v1/1.png" alt="VWPolo" />
-<img src="/assets/posts/pologti2018-sa-lp-v1/2.png" alt="VWPolo" />
-<img src="/assets/posts/pologti2018-sa-lp-v1/3.png" alt="VWPolo" />
-<img src="/assets/posts/pologti2018-sa-lp-v1/4.png" alt="VWPolo" />
-<img src="/assets/posts/pologti2018-sa-lp-v1/5.png" alt="VWPolo" />
-<img src="/assets/posts/pologti2018-sa-lp-v1/6.png" alt="VWPolo" /></p>
-
-<p>Autor: J0hnn1e20</p>
-
-<p>Consulte nosso <a href="https://j0hnn1e20.github.io/EULA.html">EULA</a> para obter informações legais detalhadas.</p>
-
-<h1 style="text-align: center; color: white;">
-    <a href="/assets/posts/pologti2018-sa-lp-v1/PoloGTI2018-Civil-SA-v1.zip" download="">DOWNLOAD</a>
-<h1>
-</h1></h1>]]></content><author><name>J0hnn1e20</name></author><category term="Vehicles" /><category term="Cars" /><category term="Low-Poly" /><category term="GTA SA" /><category term="SA Style" /><category term="Game-ready" /><summary type="html"><![CDATA[Volkswagen Polo GTI 2018]]></summary></entry></feed>
+</h1></h1>]]></content><author><name>J0hnn1e20</name></author><category term="Veículos" /><category term="GTA-San-Andreas" /><category term="Carros" /><category term="Low-Poly" /><category term="Game-Ready" /><summary type="html"><![CDATA[Volkswagen Polo 2018 GTI para GTA San Andreas]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/img/polo2018gti/polo1.png" /><media:content medium="image" url="http://localhost:4000/img/polo2018gti/polo1.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

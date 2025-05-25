@@ -1,4 +1,8 @@
-# Termos de Uso
+---
+layout: page
+title: Termos de Uso
+show_sidebar: false
+---
 
 Estes termos abrangem todos os serviços, obras e produtos de minha autoria.
 O uso de termos e pronomes na primeira pessoa (como "eu", "meu", etc.) refere-se exclusivamente ao autor das obras, identificado como J0hnn1e20 ou Jonatas.

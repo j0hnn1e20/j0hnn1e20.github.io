@@ -1,0 +1,49 @@
+<div class="">
+    <div class="container py-6 px-4" id="cookieBanner">
+        <div class="columns">
+            <div class="column is-fullwidth ">
+                <div class="content">
+                    <p>Nós utilizamos cookies para aprimoraar sua experiência.</p>
+                    <p>
+                        Ao clicar no botão Aceitar, você concorda que o façamos.
+                        <a href="{{ site.cookie_policy | relative_url }}">Mais informações sobre nossa política de cookies</a>
+                    </p>
+                </div>
+
+                <div class="buttons mt-4">
+                    <button class="button is-primary" onclick="acceptCookies()">Aceitar Cookies</button>
+                    <button class="button is-primary" onclick="rejectCookies()">Rejeitar Cookies</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function acceptCookies() {
+            {% if site.google_analytics %}
+                consentGrantedAdStorage();
+            {% endif %}
+            Cookies.set('showCookieBanner', 'false', { expires: 365, path: '/' });
+            Cookies.set('cookiesAccepted', 'true', {expires: 365, path: '/'});
+            toggleCookieBanner();
+        }
+
+        function rejectCookies() {
+            Cookies.set('showCookieBanner', 'false', { expires: 365, path: '/' });
+            toggleCookieBanner();
+        }
+
+        function toggleCookieBanner() {
+            var showBanner = Cookies.get('showCookieBanner');
+            var banner = document.getElementById('cookieBanner');
+
+            if (showBanner === 'false') {
+                banner.setAttribute('style', 'display: none;');
+            } else {
+                banner.setAttribute('style', 'display: block;');
+            }
+        }
+
+        toggleCookieBanner();
+    </script>
+</div>
