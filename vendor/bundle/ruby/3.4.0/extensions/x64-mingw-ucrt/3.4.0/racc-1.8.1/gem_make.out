@@ -1,0 +1,19 @@
+current directory: C:/Projects/GitHub/j0hnn1e20.github.io/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+C:/Ruby34-x64/bin/ruby.exe extconf.rb
+creating Makefile
+
+current directory: C:/Projects/GitHub/j0hnn1e20.github.io/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250525-10868-9zbxtz sitelibdir\=./.gem.20250525-10868-9zbxtz clean
+
+current directory: C:/Projects/GitHub/j0hnn1e20.github.io/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250525-10868-9zbxtz sitelibdir\=./.gem.20250525-10868-9zbxtz
+generating cparse-x64-mingw-ucrt.def
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: C:/Projects/GitHub/j0hnn1e20.github.io/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250525-10868-9zbxtz sitelibdir\=./.gem.20250525-10868-9zbxtz install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20250525-10868-9zbxtz/racc
+
+current directory: C:/Projects/GitHub/j0hnn1e20.github.io/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250525-10868-9zbxtz sitelibdir\=./.gem.20250525-10868-9zbxtz clean
