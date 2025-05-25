@@ -8,13 +8,13 @@ description: >
 baseurl: ""
 url: "https://j0hnn1e20.github.io"
 permalink: pretty
-#favicon: /path/to/favicon.png
+favicon: /path/to/favicon.png
 #gh_sponsor: j0hnn1e20
 #hide_share_buttons: true
 #theme_color: '#eeeeee'
 #fixed_navbar: top
 #direction: one of <ltr, rtl, auto>, default: ltr
-#force_theme: dark
+force_theme: dark
 
 paginate: 5
 paginate_path: "/blog/page:num"
