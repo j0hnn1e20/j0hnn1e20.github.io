@@ -4,20 +4,15 @@ title: Chevrolet Trailblazer PMESP 2023
 tags: [Cars,Low-Poly,GTA SA, SA Style, Game-ready]
 categories: Vehicles
 author: J0hnn1e20
-feature-img: assets/posts/trailpmesp2023-sa-lp-v1/0.png
-thumbnail: assets/posts/trailpmesp2023-sa-lp-v1/0.png
+feature-img: assets/posts/trailpmesp2023-sa-lp-v1/trailb1.png
+thumbnail: assets/posts/trailpmesp2023-sa-lp-v1/trailb1.png
 hide_title: false
 ---
 
 # Chevrolet Trailblazer PMESP 2023
 
-![ChevyTrailPMESP2023](/assets/posts/trailpmesp2023-sa-lp-v1/0.png)
-![ChevyTrailPMESP2023](/assets/posts/trailpmesp2023-sa-lp-v1/1.png)
-![ChevyTrailPMESP2023](/assets/posts/trailpmesp2023-sa-lp-v1/2.png)
-![ChevyTrailPMESP2023](/assets/posts/trailpmesp2023-sa-lp-v1/3.png)
-<!--![ChevyTrailPMESP2023](/assets/posts/trailpmesp2023-sa-lp-v1/4.png)
-![ChevyTrailPMESP2023](/assets/posts/trailpmesp2023-sa-lp-v1/5.png)
-![ChevyTrailPMESP2023](/assets/posts/trailpmesp2023-sa-lp-v1/6.png)-->
+![ChevyTrailPMESP2023](/assets/posts/trailpmesp2023-sa-lp-v1/trailb1.png)
+![ChevyTrailPMESP2023](/assets/posts/trailpmesp2023-sa-lp-v1/trailb2.png)
 
 Autor: Lucas Eduardo<br>
 Edições: J0hnn1e20
