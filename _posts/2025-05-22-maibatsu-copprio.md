@@ -6,7 +6,7 @@ categories: Vehicles
 author: J0hnn1e20
 feature-img: assets/posts/copprio/copprio1.png
 thumbnail: assets/posts/copprio/copprio1.png
-hide_title: true
+hide_title: false
 ---
 
 # Maibatsu Copprio
