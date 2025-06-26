@@ -17,7 +17,7 @@ hide_title: false
 Autor: Lucas Eduardo<br>
 Edições: J0hnn1e20
 
-[Confira a Trailblazer usada como base aqui.](https://www.vulpercommunity.com.br/2024/11/gta-sa-trailblazer-2021-civil.html)
+<!--[Confira a Trailblazer usada como base aqui.](https://www.vulpercommunity.com.br/2024/11/gta-sa-trailblazer-2021-civil.html)-->
 <!--Consulte nosso [EULA](https://j0hnn1e20.github.io/EULA.html) para obter informações legais detalhadas.-->
 
 <h1 style="text-align: center; color: white;">
