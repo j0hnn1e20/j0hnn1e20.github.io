@@ -1,8 +1,8 @@
 ---
 layout: categories
-title: Categories
+title: Categorias
 permalink: /categories/
-hide: true
+hide: false
 excluded: true
 showCounts: false
 ---
