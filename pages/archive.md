@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Blog Archive"
+title: "Arquivo do Blog"
 permalink: /archive/
 hide: true
 excluded: true

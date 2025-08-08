@@ -8,8 +8,8 @@
     {% endif %}
     <p class="meta">
       {% if author.name %}{{ author.name }} - {% endif %}
-      {% assign x = date | date: "%m" | minus: 1 %}
-      {{ site.data.language.str_months[x] | default: date | date: "%d" }} {{ date | date: "%d de %B, %Y" }}
+      {% assign x = date | date: "%d de %B, %Y" | minus: 1 %}
+      {{ site.data.language.str_months[x] | default: date | date: "%d de %B, %Y" }} {{ date | date: "%d de %B, %Y" }}
     </p>
   {%- if author.url -%}</a>{%- endif -%}
 </div>
