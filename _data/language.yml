@@ -1,23 +1,23 @@
 # Localization strings
 str_follow_on: "Follow on"
-str_rss_follow: "Follow RSS feed"
-str_share_on: "Share on"
-str_add_to: "Add to"
+str_rss_follow: "Seguir RSS feed"
+str_share_on: "Compartilhar em"
+str_add_to: "Adicionar a"
 str_email: "Email"
 str_tweet: "Tweet"
 str_pin_it: "Pin it"
-str_next_post: "Next post"
-str_previous_post: "Previous post"
-str_next_page: "Next"
-str_previous_page: "Prev"
-str_javascript_required_disqus: "Please enable JavaScript to view comments."
-str_no_result_found: "No result found"
-str_cookie_approve: "Approve"
-str_cookie_disclaimer: "We would like to use third party cookies and scripts to improve the functionality of this website."
-str_months: [January, February, March, April, May, June, July, August, September, October, November, December]
-str_dark: 'Dark'
-str_light: 'Light'
-str_date_format: '%B %-d, %Y'
+str_next_post: "Próximos"
+str_previous_post: "Anteriores"
+str_next_page: "Próxima"
+str_previous_page: "Anterior"
+str_javascript_required_disqus: "Por favor, ative o JavaScript para ver os comentários do Disqus."
+str_no_result_found: "Sem resultados encontrados"
+str_cookie_approve: "Aprovar"
+str_cookie_disclaimer: "Nós usamos cookies para melhorar a sua experiência. Ao continuar a visitar este site, você concorda com o uso de cookies."
+str_months: [Janeiro, Fevereiro, Março, Abril, Maio, Junho, Julho, Agosto, Setembro, Outubro, Novembro, Dezembro]
+str_dark: 'Escuro'
+str_light: 'Claro'
+str_date_format: '%d/%m/%Y'
 
 # Localization settings
-cusdis_lang: # zh-cn, es, tr, pt-BR
+cusdis_lang: pt-BR

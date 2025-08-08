@@ -12,7 +12,7 @@ favicon: assets/j020.ico                             # Icon displayed in the tab
 header_text: Welcome to my Warehouse! # Change Blog header text
 header_feature_image: assets/img/header/johnnie.png
 header_feature_image_responsive: false
-footer_text: 2024 - 2025 | J0hnn1e20's Warehouse
+footer_text: 2022 - 2025 | J0hnn1e20's Warehouse
 
 # Blog
 excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable
