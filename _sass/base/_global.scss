@@ -90,7 +90,7 @@ summary {
   }
 }  
 
-@media screen and (max-width: $break) {
+@media screen and (max-width: $break) { /*Monitores HD*/
   body {
     font-size: 1em;
   }
@@ -116,7 +116,7 @@ summary {
   object,
   video {
     max-width: 100%;
-    padding: 0 1%;
+    padding: 0 5%;
   }
 }
 
@@ -145,6 +145,15 @@ summary {
 
   table {
     overflow-x: scroll;
+  }
+  
+  iframe,
+  img,
+  embed,
+  object,
+  video {
+    max-width: 100%;
+    padding: 0 1%;
   }
 }
 
