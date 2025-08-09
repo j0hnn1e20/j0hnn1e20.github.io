@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Pack de Machetes
-tags: [Melee,Low-Poly,GTA SA, SA Style, Game-ready]
-categories: Weapons
+tags: [Arma Branca,Low-Poly,GTA SA,SA Style,Game-ready]
+categories: Armas
 author: J0hnn1e20
-feature-img: assets/posts/machetes-sa-lp-v1/machetes-sonyst.png
+feature-img:
 thumbnail: assets/posts/machetes-sa-lp-v1/machetes-sonyst.png
 hide_title: false
 ---

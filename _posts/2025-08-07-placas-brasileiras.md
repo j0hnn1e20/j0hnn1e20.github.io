@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Placas Brasileiras
-tags: [Models,Low-Poly,GTA SA, SA Style, Game-ready]
-categories: Vehicles
+tags: [Peças,Low-Poly,GTA SA,SA Style,Game-ready]
+categories: Veículos
 author: Leibe
 feature-img: assets/posts/placas-brasileiras/placas-br-lb.png
 thumbnail: assets/posts/placas-brasileiras/placas-br-lb.png

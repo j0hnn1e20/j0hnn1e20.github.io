@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Maibatsu Copprio
-tags: [Cars,Low-Poly,GTA SA, SA Style, Game-ready]
-categories: Vehicles
+tags: [Carros,Low-Poly,GTA SA,SA Style,Game-ready]
+categories: Veículos
 author: J0hnn1e20
 feature-img: assets/posts/copprio/copprio1.png
 thumbnail: assets/posts/copprio/copprio1.png

@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Chevrolet Trailblazer PMESP 2023
-tags: [Cars,Low-Poly,GTA SA, SA Style, Game-ready]
-categories: Vehicles
+tags: [Carros,Low-Poly,GTA SA,SA Style,Game-ready]
+categories: Veículos
 author: J0hnn1e20
-feature-img: assets/posts/trailpmesp2023-sa-lp-v1/trailb1.png
+feature-img:
 thumbnail: assets/posts/trailpmesp2023-sa-lp-v1/trailb1.png
 hide_title: false
 ---
