@@ -8,9 +8,6 @@ feature-img:
 thumbnail: assets/posts/kwid2020-sa-lp-v1/kwid1.png
 hide_title: false
 ---
-
-# Renalt Kwid Life/Zen 2017-2020
-
 ![RenaltKwid](/assets/posts/kwid2020-sa-lp-v1/kwid1.png)
 ![RenaltKwid](/assets/posts/kwid2020-sa-lp-v1/kwid2.png)
 

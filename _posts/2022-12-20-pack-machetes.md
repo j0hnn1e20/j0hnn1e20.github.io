@@ -8,9 +8,6 @@ feature-img:
 thumbnail: assets/posts/machetes-sa-lp-v1/machetes-sonyst.png
 hide_title: false
 ---
-
-# Pack de Machetes
-
 ![Machetes](/assets/posts/machetes-sa-lp-v1/machetes-sonyst.png)
 
 Autor: J0hnn1e20

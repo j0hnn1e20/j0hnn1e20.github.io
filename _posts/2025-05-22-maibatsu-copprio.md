@@ -4,13 +4,10 @@ title: Maibatsu Copprio
 tags: [Carros,Low-Poly,GTA SA,SA Style,Game-ready]
 categories: Veículos
 author: J0hnn1e20
-feature-img: assets/posts/copprio/copprio1.png
+feature-img:
 thumbnail: assets/posts/copprio/copprio1.png
 hide_title: false
 ---
-
-# Maibatsu Copprio
-
 ![MaibatsuCopprio](/assets/posts/copprio/copprio1.png)
 ![MaibatsuCopprio](/assets/posts/copprio/copprio2.png)
 

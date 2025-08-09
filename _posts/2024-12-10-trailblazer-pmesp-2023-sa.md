@@ -8,9 +8,6 @@ feature-img:
 thumbnail: assets/posts/trailpmesp2023-sa-lp-v1/trailb1.png
 hide_title: false
 ---
-
-# Chevrolet Trailblazer PMESP 2023
-
 ![ChevyTrailPMESP2023](/assets/posts/trailpmesp2023-sa-lp-v1/trailb1.png)
 ![ChevyTrailPMESP2023](/assets/posts/trailpmesp2023-sa-lp-v1/trailb2.png)
 
