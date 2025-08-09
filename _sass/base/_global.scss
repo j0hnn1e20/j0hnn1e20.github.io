@@ -84,8 +84,16 @@ summary {
 }
 
 /* ---- Responsive ---- */
+@media screen and (max-width: $m-break) {
+  body {
+    font-size: 1.25em;
+  }
+}  
 
 @media screen and (max-width: $break) {
+  body {
+    font-size: 1em;
+  }
   h1 {
     font-size: 2em;
   }
@@ -112,7 +120,7 @@ summary {
   }
 }
 
-@media screen and (max-width: $sm-break) {
+@media screen and (max-width: $sm-break) { /*Telas Menores*/
   h1 {
     font-size: 1.5em;
   }
