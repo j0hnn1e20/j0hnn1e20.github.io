@@ -1,0 +1,22 @@
+{
+"Markdown Post Model": {
+	"scope": "markdown, md",
+	"prefix": "post-template",
+	"body": ["---",
+		"layout: post",
+		"title: ",
+		"tags: []",
+		"categories: ",
+		"author: J0hnn1e20",
+		"feature-img:",
+		"thumbnail: /assets/posts/",
+		"hide_title: false",
+		"#color: ",
+		"position: ",
+		"---",
+		"",
+	],
+	"description": "Cria modelo de postagem para site em markdown"
+	}
+}
+// To use this snippet, type "post-template" in a markdown file and press Tab.

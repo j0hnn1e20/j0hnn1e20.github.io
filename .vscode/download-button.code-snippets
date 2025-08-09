@@ -1,0 +1,12 @@
+{
+	"Markdown/HTML Download Button": {
+		"scope": "markdown, md, html",
+		"prefix": "download-button",
+		"body": [
+			"<h1 style=\"text-align: center; color: white;\">",
+			"   <a href=\"/assets/posts/\" download>DOWNLOAD</a>",
+			"</h1>"
+		],
+		"description": "Cria modelo botão para Download em Markdown e HTML"
+	}
+}
