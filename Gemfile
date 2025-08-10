@@ -5,7 +5,7 @@ gemspec
 gem 'webrick'
 gem 'kramdown-parser-gfm'
 gem 'csv'
-
+gem 'jekyll-redirect-from'
 
 # For github pages compatibility
 gem 'github-pages', group: :jekyll_plugins
