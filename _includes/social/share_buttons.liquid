@@ -10,20 +10,20 @@
 
 <div class="share-buttons">
     <ul class="share-buttons">
-        <li class="meta">Share</li>
+        <li class="meta">Compartilhar</li>
         {% if site.data.social.share.facebook or site.theme_settings.share_buttons.facebook %}
         <li>
             <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}" target="_blank"
                title="{{ site.data.social.language.str_share_on }} Facebook">
-                <i class="fab fa-facebook-square fa-2x" aria-hidden="true"></i>
+                <i class="fa-brands fa-square-facebook fa-2x" aria-hidden="true"></i>
                 <span class="sr-only">{{ site.data.social.language.str_share_on | default: "Share on" }} Facebook</span>
             </a>
         </li>
         {% endif %} {% if site.data.social.share.twitter or site.theme_settings.twitter %}
         <li>
-            <a href="https://twitter.com/intent/tweet?text={{ page.title | strip_html | url_encode }}%20{{ page.url | absolute_url | url_encode }}"
+            <a href="https://x.com/intent/post?text={{ page.title | strip_html | url_encode }}%20{{ page.url | absolute_url | url_encode }}"
                target="_blank" title="{{ site.data.social.language.str_tweet }}">
-                <i class="fab fa-twitter-square fa-2x" aria-hidden="true"></i>
+                <i class="fa-brands fa-square-x-twitter fa-2x" aria-hidden="true"></i>
                 <span class="sr-only">{{ site.data.social.language.str_tweet | default: "Tweet" }}</span>
             </a>
         </li>
@@ -31,7 +31,7 @@
         <li>
             <a href="https://www.tumblr.com/share?v=3&u={{ page.url | absolute_url }}&quote={{ page.title | url_encode }}%20%7C%20{{ site.title | strip_html | url_encode }}&s="
                target="_blank" title="{{ site.data.social.language.str_share_on }} Tumblr">
-                <i class="fab fa-tumblr-square fa-2x" aria-hidden="true"></i>
+                <i class="fa-brands fa-square-tumblr fa-2x" aria-hidden="true"></i>
                 <span class="sr-only">{{ site.data.social.language.str_share_on | default: "Share on" }} Tumblr</span>
             </a>
         </li>
@@ -39,7 +39,7 @@
         <li>
             <a href="https://pinterest.com/pin/create/button/?url={{ page.url | absolute_url }}&media={{ page.feature-img | absolute_url }}$description={{ page.excerpt | strip_html | url_encode }}"
                target="_blank" title="{{ site.data.social.language.str_pin_it }}">
-                <i class="fab fa-pinterest-square fa-2x" aria-hidden="true"></i>
+                <i class="fa-brands fa-square-pinterest fa-2x" aria-hidden="true"></i>
                 <span class="sr-only">{{ site.data.social.language.str_pin_it | default: "Pin it" }}</span>
             </a>
         </li>
@@ -49,7 +49,7 @@
                target="_blank" title="{{ site.data.social.language.str_add_to }} Pocket">
             <span class="fa-stack fa-1x" style="vertical-align: top">
               <i class="fas fa-square fa-stack-2x" aria-hidden="true"></i>
-              <i class="fab fa-get-pocket fa-stack-1x fa-inverse" aria-hidden="true"></i>
+              <i class="fa-brands fa-get-pocket fa-stack-1x fa-inverse" aria-hidden="true"></i>
             </span>
                 <span class="sr-only">{{ site.data.social.language.str_add_to | default: "Add to" }} Pocket</span>
             </a>
@@ -58,7 +58,7 @@
         <li>
             <a href="https://www.reddit.com/submit?url={{ page.url | absolute_url }}&title={{ page.title | strip_html | url_encode }}%20%7C%20{{ site.title | strip_html | url_encode }}"
                target="_blank" title="{{ site.data.social.language.str_share_on }} Reddit">
-                <i class="fab fa-reddit-square fa-2x" aria-hidden="true"></i>
+                <i class="fa-brands fa-square-reddit fa-2x" aria-hidden="true"></i>
                 <span class="sr-only">{{ site.data.social.language.str_share_on | default: "Share on" }} Reddit</span>
             </a>
         </li>
@@ -66,7 +66,7 @@
         <li>
             <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url }}&title={{ page.title | strip_html | url_encode }}%20%7C%20{{ site.title | strip_html | url_encode }}&summary=&source={{ page.url | absolute_url }}"
                target="_blank" title="{{ site.data.social.language.str_share_on }} LinkedIn">
-                <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+                <i class="fa-brands fa-square-linkedin fa-2x" aria-hidden="true"></i>
                 <span class="sr-only">{{ site.data.social.language.str_share_on | default: "Share on" }} LinkedIn</span>
             </a>
         </li>
@@ -74,7 +74,7 @@
         <li>
             <a href="https://wordpress.com/press-this.php?u={{ page.url | absolute_url }}&quote={{ page.title | strip_html | url_encode }}%20%7C%20{{ site.title | strip_html | url_encode }}&s="
                target="_blank" title="{{ site.data.social.language.str_share_on }} WordPress">
-                <i class="fab fa-wordpress fa-2x" aria-hidden="true"></i>
+                <i class="fa-brands fa-wordpress fa-2x" aria-hidden="true"></i>
                 <span class="sr-only">{{ site.data.social.language.str_share_on | default: "Share on" }} WordPress</span>
             </a>
         </li>
