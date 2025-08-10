@@ -7,7 +7,6 @@ gallery_path: "assets/img/pexels"
 hide: false
 excluded: true
 position: 3
-tags: [Page]
+tags: [Galeria]
 ---
-Galeria de nossas criações
 {% include gallery.html gallery_path=page.gallery_path %}

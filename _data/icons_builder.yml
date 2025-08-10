@@ -80,3 +80,5 @@ wordpress:
   pos: ".wordpress.com/"
 youtube:
   pre: "https://youtube.com/@"
+x:
+  pre: "https://x.com/"
