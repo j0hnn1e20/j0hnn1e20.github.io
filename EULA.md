@@ -1,3 +1,10 @@
+---
+layout: page
+title: "Termos de Uso"
+permalink: /eula.html
+hide: true
+excluded: true
+---
 # Termos de Uso
 
 Estes termos abrangem todos os serviços, obras e produtos de minha autoria.
