@@ -13,7 +13,7 @@ position: 1
 
 # CLEO 5.1
 
-A Biblioteca CLEO é um plugin extensível de código aberto para o jogo Grand Theft Auto: San Andreas da Rockstar Games, permitindo o uso de milhares de mods exclusivos que alteram ou expandem a jogabilidade. Você pode encontrar mais informações sobre o CLEO no ![site oficial](https://cleo.li).
+A Biblioteca CLEO é um plugin extensível de código aberto para o jogo Grand Theft Auto: San Andreas da Rockstar Games, permitindo o uso de milhares de mods exclusivos que alteram ou expandem a jogabilidade. Você pode encontrar mais informações sobre o CLEO no [site oficial](https://cleo.li).
 
 Créditos: Miran, Alien, Deji, Seeman
 
