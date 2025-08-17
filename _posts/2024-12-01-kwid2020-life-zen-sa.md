@@ -12,7 +12,7 @@ redirect_from: https://j0hnn1e20.github.io/vehicles/2024/12/01/kwid2020-life-zen
 ![RenaltKwid](/assets/posts/kwid2020-sa-lp-v1/kwid1.png)
 ![RenaltKwid](/assets/posts/kwid2020-sa-lp-v1/kwid2.png)
 
-Autor: J0hnn1e20
+### Autor: J0hnn1e20
 
 Consulte nosso [EULA](https://j0hnn1e20.github.io/EULA.html) para obter informações legais detalhadas.
 

@@ -25,7 +25,7 @@ Os comandos são personalizáveis através de um arquivo .ini, e o script inclui
 
 Este mod faz o uso de funcionalidades da [CLEO+](https://www.mixmods.com.br/2023/10/cleoplus/).
 
-Autor: J0hnn1e20
+### Autor: J0hnn1e20
 
 Consulte nosso [EULA](https://j0hnn1e20.github.io/EULA.html) para obter informações legais detalhadas.
 

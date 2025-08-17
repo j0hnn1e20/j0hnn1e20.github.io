@@ -12,8 +12,8 @@ redirect_from: https://j0hnn1e20.github.io/vehicles/2024/12/10/trailblazer-pmesp
 ![ChevyTrailPMESP2023](/assets/posts/trailpmesp2023-sa-lp-v1/trailb1.png)
 ![ChevyTrailPMESP2023](/assets/posts/trailpmesp2023-sa-lp-v1/trailb2.png)
 
-Autor: Lucas Eduardo<br>
-Edições: J0hnn1e20
+### Autor: Lucas Eduardo<br>
+### Edições: J0hnn1e20
 
 <!--[Confira a Trailblazer usada como base aqui.](https://www.vulpercommunity.com.br/2024/11/gta-sa-trailblazer-2021-civil.html)-->
 <!--Consulte nosso [EULA](https://j0hnn1e20.github.io/EULA.html) para obter informações legais detalhadas.-->

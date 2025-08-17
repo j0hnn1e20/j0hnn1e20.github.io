@@ -10,7 +10,7 @@ hide_title: false
 ---
 ![Machetes](/assets/posts/machetes-sa-lp-v1/machetes-sonyst.png)
 
-Autor: J0hnn1e20
+### Autor: J0hnn1e20
 
 Consulte nosso [EULA](https://j0hnn1e20.github.io/EULA.html) para obter informações legais detalhadas.
 

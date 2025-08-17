@@ -12,7 +12,7 @@ position:
 ---
 ![Pack Rodas](/assets/posts/pack-rodas-sa-lp-v1/pack-rodas-sa-lp-v1.png)
 
-Autor: J0hnn1e20
+### Autor: J0hnn1e20
 
 Consulte nosso [EULA](https://j0hnn1e20.github.io/EULA.html) para obter informações legais detalhadas.
 
