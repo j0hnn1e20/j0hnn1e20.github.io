@@ -3,11 +3,12 @@
 
 <div class="post-info">
   {%- if author.url -%}<a href="{{ author.url | relative_url }}" target="_blank" rel="noopener">{%- endif -%}
+    <p>Autor do Post: </p>
     {% if author.avatar  %}
       <img alt="Author's avatar" src="{{ author.avatar | relative_url }}" loading="lazy">
     {% endif %}
     <p class="meta">
-      Post Escrito por:{% if author.name %}{{ author.name }} - {% endif %}
+      Autor do Post: {% if author.name %}{{ author.name }} - {% endif %}
       {% assign day = date | date: "%d" %}
       {% assign month_index = date | date: "%m" | minus: 1 %}
       {% assign month_name = site.data.language.str_months[month_index] %}
