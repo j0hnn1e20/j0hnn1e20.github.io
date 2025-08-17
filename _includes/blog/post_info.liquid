@@ -7,7 +7,7 @@
       <img alt="Author's avatar" src="{{ author.avatar | relative_url }}" loading="lazy">
     {% endif %}
     <p class="meta">
-      {% if author.name %}{{ author.name }} - {% endif %}
+      Post Escrito por:{% if author.name %}{{ author.name }} - {% endif %}
       {% assign day = date | date: "%d" %}
       {% assign month_index = date | date: "%m" | minus: 1 %}
       {% assign month_name = site.data.language.str_months[month_index] %}
