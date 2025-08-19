@@ -3,7 +3,7 @@ layout: page
 title: Galeria
 subtitle: 
 permalink: /gallery/
-gallery_path: "assets/img/pexels"
+gallery_path: "assets/img/gallery"
 hide: false
 excluded: true
 position: 3

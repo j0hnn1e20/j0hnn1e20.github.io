@@ -1,9 +1,9 @@
 --- 
 layout: page
-title : Portfolio 
+title : Portfólio 
 permalink: /portfolio/
-subtitle: "Projects I am working on" 
-feature-img: "assets/img/pexels/computer.jpeg"
+subtitle: "Projetos nos quais trabalhei." 
+feature-img: "assets/img/"
 position: 4
 tags: [Page]
 hide: true
