@@ -2,7 +2,7 @@
 layout: page
 title: Sobre Nós
 permalink: /about/
-feature-img: 
+feature-img: "assets/img/pexels/travel.jpeg"
 tags: [About]
 hide: false
 excluded: false
