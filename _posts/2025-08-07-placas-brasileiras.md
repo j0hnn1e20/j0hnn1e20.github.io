@@ -7,6 +7,8 @@ author: J0hnn1e20
 feature-img:
 thumbnail: assets/posts/placas-brasileiras/placas-br-lb.png
 hide_title: false
+hide: true
+excluded: true
 ---
 ![Placas Brasileiras](/assets/posts/placas-brasileiras/placas-br-lb.png)
 

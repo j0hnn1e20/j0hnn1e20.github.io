@@ -8,6 +8,8 @@ feature-img:
 thumbnail: assets/posts/trailpmesp2023-sa-lp-v1/trailb1.png
 hide_title: false
 redirect_from: https://j0hnn1e20.github.io/vehicles/2024/12/10/trailblazer-pmesp-2023-sa.html
+hide: true
+excluded: true
 ---
 ![ChevyTrailPMESP2023](/assets/posts/trailpmesp2023-sa-lp-v1/trailb1.png)
 ![ChevyTrailPMESP2023](/assets/posts/trailpmesp2023-sa-lp-v1/trailb2.png)

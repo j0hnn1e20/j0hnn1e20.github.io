@@ -9,6 +9,8 @@ thumbnail: /assets/posts/cleo5/cleo5lib.png
 hide_title: true
 #color: 
 position: 1
+hide: true
+excluded: true
 ---
 
 # CLEO 5.1

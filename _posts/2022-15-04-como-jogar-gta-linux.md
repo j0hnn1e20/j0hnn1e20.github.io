@@ -9,6 +9,8 @@ thumbnail: /assets/posts/
 hide_title: false
 color: rgb(80,140,22)
 position: 1
+hide: true
+excluded: true
 ---
 Jogar GTA San Andreas no PC, é uma coisa simples, não é?
 Pelo menos, pros usuários de Windows, pode ser fácil.
