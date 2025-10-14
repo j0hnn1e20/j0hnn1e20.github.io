@@ -5,7 +5,7 @@ tags: [Peças,Low-Poly,GTA SA,SA Style,Game-ready]
 categories: Modelos
 author: J0hnn1e20
 feature-img:
-thumbnail: /assets/posts/sinalizador-eurosignal/sinalizador-eurosignal.png
+thumbnail: /assets/posts/eurosignal/eurosignal.png
 hide_title: false
 ---
 ![Sinalizador Eurosignal](/assets/posts/eurosignal/eurosignal.png)
