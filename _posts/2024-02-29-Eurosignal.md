@@ -13,5 +13,5 @@ hide_title: false
 ### Autor: J0hnn1e20
 
 <h1 style="text-align: center; color: white;">
-   <a href="/assets/posts/eurosignal/Sinalizado-Eurosignal.zip" download>DOWNLOAD</a>
-</h1
+   <a href="/assets/posts/eurosignal/Sinalizador-Eurosignal.zip" download>DOWNLOAD</a>
+</h1>
