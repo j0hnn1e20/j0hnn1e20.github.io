@@ -19,6 +19,59 @@ layout: default
             }
         }
         {% endif %}
+
+        /* Layout de posts lado a lado no desktop */
+        .posts {
+          display: grid;
+          gap: 1.5rem;
+        }
+
+        /* 2 colunas em telas maiores que 992px, 3 colunas se quiser em telas muito largas ajuste a regra */
+        @media (min-width: 992px) {
+          .posts {
+            grid-template-columns: repeat(2, 1fr);
+          }
+        }
+
+        /* Estilo do cartão/teaser */
+        .post-teaser {
+          display: flex;
+          flex-direction: column;
+          background: transparent;
+          padding: 0.5rem 0;
+          align-items: stretch;
+        }
+
+        /* Quando houver imagem, coloca ela ao lado do conteúdo */
+        .post-teaser .post-img {
+          flex: 0 0 160px;
+          margin-bottom: 0.75rem;
+        }
+        @media (min-width: 768px) {
+          .post-teaser {
+            flex-direction: row;
+            gap: 1rem;
+          }
+          .post-teaser .post-img {
+            margin-bottom: 0;
+          }
+        }
+
+        .post-teaser img {
+          width: 100%;
+          height: auto;
+          display: block;
+        }
+
+        /* Garante que o texto ocupe o espaço restante */
+        .post-teaser > span {
+          flex: 1 1 auto;
+        }
+
+        /* Ajustes visuais */
+        .post-teaser .excerpt {
+          margin-top: 0.5rem;
+        }
     </style>
     <div id="main" class="call-out call-out_img">
         <h1> {{ site.header_text | default: "Change <code>header_text</code> in <code>_config.yml</code>"}} </h1>
