@@ -75,11 +75,13 @@ header {
     }
   }
 
-  img {
+  /* alvo específico para o avatar do autor */
+  .author-avatar,
+  img.author-avatar {
     padding: 0;
     border-radius: 50%;
-    width: 0.5rem;
-    height:0.5rem;
+    width: 3rem;        /* use rem para escalabilidade */
+    height: 3rem;
     object-fit: cover;
     margin-right: 0.5rem;
     display: inline-block;
