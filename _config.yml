@@ -37,7 +37,7 @@ comments:
     issue-term:                                         # Issue term (e.g. "comment" consider issues with this word in the title as comments)
 
 # PAGINATION
-paginate: 15
+paginate: 10
 paginate_path: "/blog/page:num"
 
 # PORTFOLIO
