@@ -37,11 +37,7 @@ comments:
     issue-term:                                         # Issue term (e.g. "comment" consider issues with this word in the title as comments)
 
 # PAGINATION
-<<<<<<< HEAD
-paginate: 1
-=======
 paginate: 15
->>>>>>> parent of cff34a9 (Update _config.yml)
 paginate_path: "/blog/page:num"
 
 # PORTFOLIO
