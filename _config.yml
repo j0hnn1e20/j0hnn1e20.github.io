@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-baseurl: ""
+baseurl: "/404"
 url: "https://j0hnn1e20.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
@@ -30,7 +30,7 @@ color_theme: auto                                       # auto, dark or light
 
 # Comments options
 comments:
-  disqus_shortname: j0hnn1e20                           # Your discus shortname for comments
+  disqus_shortname:                          # Your discus shortname for comments
   cusdis_app_id:                                        # Your cusdis data-app-id
   utterances:                                           # Enable by filling below information. For more info, go to https://utteranc.es
     repo:                                               # your public comments repository (e.g. owner/repo)
