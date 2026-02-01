@@ -6,7 +6,7 @@ calendly:
 dribbble:
 facebook:
 flickr:
-discord: 
+discord: https://discord.com/invite/KVUKj6YU78
 github:
 gitlab:
 google-scholar:   # e.g. "WXAAOb0AAAAJ"
@@ -14,7 +14,7 @@ instagram:
 hacker-news:
 keybase:
 linkedin:
-mail:            # e.g. "sam@mail.com"
+mail: j0hnn1e20@proton.me            # e.g. "sam@mail.com"
 map:              # e.g. "34.0886/-118.3191"
 mastodon:         # e.g. "fostodon.org/@sam"
 matrix:           # e.g. "@sam:matrix.org"
