@@ -1,0 +1,10 @@
+{
+    "Sketchfab API": {
+        "scope": "markdown, md, html",
+        "prefix": "sketchfab",
+        "body": [
+            "{% include sketchfab.html id=\"${1:model_id}\" title=\"${2:Model Title}\" ratio=\"${3:16/9}\" %}"
+        ],
+        "description": "Include a Sketchfab model in a Jekyll page."
+    }
+}
