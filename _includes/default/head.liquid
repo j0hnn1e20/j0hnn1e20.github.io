@@ -89,5 +89,22 @@
     <meta name="twitter:image" content="{{ '/' | absolute_url }}{% if page.thumbnail %}{{ page.thumbnail }}{% else %}{{ page.feature-img | default: site.header_feature_image }}{% endif %}">
     <meta name="twitter:image:alt" content="{{ page.title | default: site.title }}">
 
-    <script> document.addEventListener("DOMContentLoaded", function() { var msg = "{{ site.title }} - {{ page.title }} | "; setInterval(function() { msg = msg.substring(1) + msg.substring(0, 1); document.title = msg; }, 300); }); </script>
+    <script>
+  // Iniciamos uma função anônima para não conflitar com outros scripts
+  (function() {
+    // Espera tudo carregar
+    window.onload = function() {
+      // Pega o título que o navegador já definiu
+      var texto = document.title + " | ";
+      
+      // Mostra no console para termos certeza que rodou
+      console.log("Letreiro ativado em: " + texto);
+
+      setInterval(function() {
+        texto = texto.substring(1) + texto.substring(0, 1);
+        document.title = texto;
+      }, 300);
+    };
+  })();
+    </script>
 </head>
