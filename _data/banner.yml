@@ -1,8 +1,8 @@
 published: true
-titulo: "Bem vindo ao meu site"
-texto: |
+title: "Bem vindo ao {{ site.title }}!"
+text: |
   Este site foi criado para compartilhar projetos meus e de amigos.
   Todo o conteúdo deste site é fornecido com a devida autoria.
   * Este site não é mais mantido regularmente após Março de 2025, e todo o conteúdo publicado após essa data é conclusão/publicação de projetos não concluídos ou não publicados.
-  * 
-botao_texto: "Continuar"
+  * Não repostar conteúdo deste site 
+continue_button: "Continuar"

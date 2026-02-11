@@ -3,13 +3,13 @@
 {% if banner_data.published %}
 <div id="overlay-bem-vindo" style="display: none;">
     <div class="conteudo-overlay">
-        <h1>{{ banner_data.titulo }}</h1>
+        <h3>{{ banner_data.title }}</h3>
         
         <div class="markdown-body">
-            {{ banner_data.texto | markdownify }}
+            {{ banner_data.text | markdownify }}
         </div>
         
-        <button onclick="fecharBanner()">{{ banner_data.botao_texto }}</button>
+        <a class="button" onclick="fecharBanner()">{{ banner_data.continue_button }}</a>
     </div>
 </div>
 {% endif %}
