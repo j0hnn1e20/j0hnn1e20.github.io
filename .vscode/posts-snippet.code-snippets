@@ -5,6 +5,8 @@
 	"body": ["---",
 		"layout: post",
 		"title: ",
+		"description: ",
+		"date: ",
 		"tags: []",
 		"categories: ",
 		"author: J0hnn1e20",
