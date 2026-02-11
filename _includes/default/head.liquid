@@ -90,21 +90,19 @@
     <meta name="twitter:image:alt" content="{{ page.title | default: site.title }}">
 
     <script>
-  // Iniciamos uma função anônima para não conflitar com outros scripts
-  (function() {
-    // Espera tudo carregar
-    window.onload = function() {
-      // Pega o título que o navegador já definiu
-      var texto = document.title + " | ";
-      
-      // Mostra no console para termos certeza que rodou
-      console.log("Letreiro ativado em: " + texto);
-
-      setInterval(function() {
-        texto = texto.substring(1) + texto.substring(0, 1);
-        document.title = texto;
-      }, 300);
-    };
-  })();
+    // Usamos um nome de variável único para não dar erro
+    (function() {
+        window.onload = function() {
+        // 1. Criamos a variável 'msg' e damos um valor inicial a ela
+        var msg = document.title + " | ";
+        
+        // 2. Só iniciamos o intervalo se a variável existir
+        setInterval(function() {
+            // Agora o navegador sabe o que é 'msg'
+            msg = msg.substring(1) + msg.substring(0, 1);
+            document.title = msg;
+        }, 300);
+        };
+    })();
     </script>
 </head>
