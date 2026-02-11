@@ -1,0 +1,13 @@
+<div class="sketchfab-embed-wrapper" 
+     style="width: 100%; 
+            max-width: {{ include.max_width | default: '100%' }}; 
+            margin: 1.5rem auto; 
+            aspect-ratio: {{ include.ratio | default: '16 / 9' }};">
+  <iframe 
+    title="{{ include.title | default: 'Sketchfab Model' }}"
+    style="width: 100%; height: 100%; border: 0; border-radius: 8px;"
+    src="https://sketchfab.com/models/{{ include.id }}/embed?ui_theme={{ include.theme | default: 'dark' }}&dnt=1"
+    allow="autoplay; fullscreen; xr-spatial-tracking"
+    allowfullscreen>
+  </iframe>
+</div>
