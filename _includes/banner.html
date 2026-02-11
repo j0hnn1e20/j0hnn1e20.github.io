@@ -1,21 +1,51 @@
-<div id="welcome-banner" style="display: none;" class="banner-style">
-    <p>Este site foi criado por Jonatas (J0hnn1e20) para compartilhar e preservar projetos pessoais e de amigos, além de recursos úteis. 
-        Todo o conteúdo é públicado com devida creditação aos respectivos autores</p>
-    <button id="close-btn">Fechar</button>
+{% assign banner_data = site.data.banner %}
+
+{% if banner_data.published %}
+<div id="overlay-bem-vindo" style="display: none;">
+    <div class="conteudo-overlay">
+        <h1>{{ banner_data.titulo }}</h1>
+        
+        <div class="markdown-body">
+            {{ banner_data.texto | markdownify }}
+        </div>
+        
+        <button onclick="fecharBanner()">{{ banner_data.botao_texto }}</button>
+    </div>
 </div>
+{% endif %}
+
+<style>
+    /* (Mantenha o CSS de tela cheia que usamos antes) */
+    #overlay-bem-vindo {
+        position: fixed;
+        top: 0; left: 0;
+        width: 100%; height: 100%;
+        background-color: rgba(0, 0, 0, 0.95);
+        display: flex; justify-content: center; align-items: center;
+        z-index: 10000;
+    }
+    .conteudo-overlay {
+        background: white;
+        padding: 2rem;
+        border-radius: 10px;
+        max-width: 90%;
+        width: 500px;
+        color: #222;
+    }
+</style>
 
 <script>
-  document.addEventListener("DOMContentLoaded", function() {
-    const banner = document.getElementById("welcome-banner");
-    const closeBtn = document.getElementById("close-btn");
+    (function() {
+        const banner = document.getElementById('overlay-bem-vindo');
+        if (!banner) return;
 
-    if (!sessionStorage.getItem("visited")) {
-      banner.style.display = "flex";
-    }
+        if (!sessionStorage.getItem('bannerVisto')) {
+            banner.style.display = 'flex';
+        }
 
-    closeBtn.onclick = function() {
-      banner.style.display = "none";
-      sessionStorage.setItem("visited", "true");
-    };
-  });
+        window.fecharBanner = function() {
+            banner.style.display = 'none';
+            sessionStorage.setItem('bannerVisto', 'true');
+        };
+    })();
 </script>
