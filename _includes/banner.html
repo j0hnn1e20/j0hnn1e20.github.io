@@ -1,0 +1,21 @@
+<div id="welcome-banner" style="display: none;" class="banner-style">
+    <p>Este site foi criado por Jonatas (J0hnn1e20) para compartilhar e preservar projetos pessoais e de amigos, além de recursos úteis. 
+        Todo o conteúdo é públicado com devida creditação aos respectivos autores</p>
+    <button id="close-btn">Fechar</button>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const banner = document.getElementById("welcome-banner");
+    const closeBtn = document.getElementById("close-btn");
+
+    if (!sessionStorage.getItem("visited")) {
+      banner.style.display = "flex";
+    }
+
+    closeBtn.onclick = function() {
+      banner.style.display = "none";
+      sessionStorage.setItem("visited", "true");
+    };
+  });
+</script>

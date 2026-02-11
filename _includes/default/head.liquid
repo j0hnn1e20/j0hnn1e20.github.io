@@ -89,20 +89,4 @@
     <meta name="twitter:image" content="{{ '/' | absolute_url }}{% if page.thumbnail %}{{ page.thumbnail }}{% else %}{{ page.feature-img | default: site.header_feature_image }}{% endif %}">
     <meta name="twitter:image:alt" content="{{ page.title | default: site.title }}">
 
-    <script>
-    // Usamos um nome de variável único para não dar erro
-    (function() {
-        window.onload = function() {
-        // 1. Criamos a variável 'msg' e damos um valor inicial a ela
-        var msg = document.title + " | ";
-        
-        // 2. Só iniciamos o intervalo se a variável existir
-        setInterval(function() {
-            // Agora o navegador sabe o que é 'msg'
-            msg = msg.substring(1) + msg.substring(0, 1);
-            document.title = msg;
-        }, 300);
-        };
-    })();
-    </script>
 </head>
