@@ -12,7 +12,7 @@ favicon: assets/j020.ico                             # Icon displayed in the tab
 header_text: Welcome to my Warehouse! # Change Blog header text
 header_feature_image: assets/img/header/johnnie.png
 header_feature_image_responsive: false
-footer_text: 2022 - 2026 | J0hnn1e20's Warehouse
+footer_text: "2022 - 2026 | J0hnn1e20's Warehouse"
 
 # Blog
 excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable
@@ -27,6 +27,7 @@ mermaid: default                                        # Enable mermaid-js for 
 google_analytics:                                       # Measurement ID, e.g. "G-00000"
 cookie_consent: true                                   # To respect the usage of cookies
 color_theme: auto                                       # auto, dark or light
+markdown: kramdown
 
 # Comments options
 comments:
