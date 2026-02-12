@@ -6,7 +6,7 @@ calendly:
 dribbble:
 facebook:
 flickr:
-discord: https://discord.com/invite/KVUKj6YU78
+discord:
 github:
 gitlab:
 google-scholar:   # e.g. "WXAAOb0AAAAJ"
@@ -33,6 +33,6 @@ tumblr:
 twitch:
 twitter:
 vimeo:
-vk: j0hnn1e20
+vk: 
 wordpress:
-youtube: j0hnn1e20          # e.g. "UCqECaJ8Gagnn7YCbPEzWH6g"
+youtube:           # e.g. "UCqECaJ8Gagnn7YCbPEzWH6g"
