@@ -3,9 +3,9 @@
 {% if banner_data.published %}
 <div id="overlay-bem-vindo" style="display: none;">
     <div class="conteudo-overlay">
-        <h3>{{ banner_data.title }}</h3>
+        <h3 style="color: rgb(146, 20, 20);">{{ banner_data.title }}</h3>
         
-        <div class="markdown-body">
+        <div  class="markdown-body" style="color: rgb(216, 216, 216);">
             {{ banner_data.text | markdownify }}
         </div>
         
@@ -20,17 +20,18 @@
         position: fixed;
         top: 0; left: 0;
         width: 100%; height: 100%;
-        background-color: rgba(0, 0, 0, 0.95);
+        background-color: rgb(34, 41, 49);
         display: flex; justify-content: center; align-items: center;
         z-index: 10000;
     }
     .conteudo-overlay {
-        background: white;
+        background: rgb(34, 41, 49);
         padding: 2rem;
         border-radius: 10px;
         max-width: 90%;
         width: 500px;
         color: #222;
+        font-size: 0.9em;
     }
 </style>
 
