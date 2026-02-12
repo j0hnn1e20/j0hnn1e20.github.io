@@ -7,7 +7,6 @@ author: J0hnn1e20
 feature-img:
 thumbnail: assets/posts/kwid2020-sa-lp-v1/kwid1.png
 hide_title: false
-redirect_from: https://j0hnn1e20.github.io/vehicles/2024/12/01/kwid2020-life-zen-sa
 ---
 ![RenaltKwid](/assets/posts/kwid2020-sa-lp-v1/kwid1.png)
 ![RenaltKwid](/assets/posts/kwid2020-sa-lp-v1/kwid2.png)

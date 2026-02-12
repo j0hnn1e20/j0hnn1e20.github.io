@@ -6,9 +6,7 @@ categories: Modelos
 author: J0hnn1e20
 feature-img:
 thumbnail: /assets/posts/capota-menino/capota1.png
-hide_title: false
-#color: 
-position: 
+hide_title: false 
 ---
 ![Capota](/assets/posts/capota-menino/capota1.png)
 ![Capota](/assets/posts/capota-menino/capota2.png)

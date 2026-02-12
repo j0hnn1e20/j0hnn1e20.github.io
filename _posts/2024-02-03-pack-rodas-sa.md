@@ -7,8 +7,6 @@ author: J0hnn1e20
 feature-img:
 thumbnail: /assets/posts/pack-rodas-sa-lp-v1/pack-rodas-sa-lp-v1.png
 hide_title: false
-#color: 
-position: 
 ---
 ![Pack Rodas](/assets/posts/pack-rodas-sa-lp-v1/pack-rodas-sa-lp-v1.png)
 
