@@ -12,7 +12,7 @@ hide_title: false
 
 ### Autor: J0hnn1e20
 
-Consulte nosso [EULA](https://j0hnn1e20.github.io/EULA.html) para obter informações legais detalhadas.
+Consulte nosso [EULA](https://j0hnn1e20.github.io/EULA) para obter informações legais detalhadas.
 
 <h2 style="text-align: center; color: white;">
     <a href="/assets/posts/machetes-sa-lp-v1/Pack de Machetes.zip" download>DOWNLOAD</a>

@@ -27,7 +27,7 @@ Este mod faz o uso de funcionalidades da [CLEO+](https://www.mixmods.com.br/2023
 
 ### Autor: J0hnn1e20
 
-Consulte nosso [EULA](https://j0hnn1e20.github.io/EULA.html) para obter informações legais detalhadas.
+Consulte nosso [EULA](https://j0hnn1e20.github.io/EULA) para obter informações legais detalhadas.
 
 <h1 style="text-align: center; color: white;">
     <a href="/assets/posts/excarfuncs-sa/Extra Car Functions v0.2.zip" download>DOWNLOAD</a>
