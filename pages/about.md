@@ -2,7 +2,6 @@
 layout: page
 title: Sobre Nós
 permalink: /about/
-#feature-img: "assets/img/"
 hide: false
 excluded: false
 icon: "fa-info-circle"
