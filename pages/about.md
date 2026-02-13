@@ -3,9 +3,10 @@ layout: page
 title: Sobre Nós
 permalink: /about/
 #feature-img: "assets/img/"
-tags: [About]
 hide: false
 excluded: false
+icon: "fa-info-circle"
+position: 2
 ---
 
 ## Johnnie's Warehouse

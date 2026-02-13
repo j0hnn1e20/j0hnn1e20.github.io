@@ -6,5 +6,5 @@ subtitle: "Pelo que você está procurando?"
 feature-img: "assets/img/"
 icon: "fa-search"
 excluded: true
-position: 5
+position: 1
 ---

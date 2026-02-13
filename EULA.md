@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Termos de Uso"
-permalink: /eula
+permalink: /EULA
 hide: true
 excluded: true
 ---

@@ -7,6 +7,6 @@ gallery_path: "assets/img/gallery"
 hide: false
 excluded: true
 position: 3
-tags: [Galeria]
+icon: "fa-images"
 ---
 {% include gallery.html gallery_path=page.gallery_path %}
