@@ -82,3 +82,5 @@ youtube:
   pre: "https://youtube.com/@"
 x:
   pre: "https://x.com/"
+sketchfab:
+  pre: "https://sketchfab.com/"
